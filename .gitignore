@@ -1,0 +1,7 @@
+research/
+.impeccable/
+node_modules/
+__pycache__/
+tools/out/
+PRODUCT.md
+DESIGN.md

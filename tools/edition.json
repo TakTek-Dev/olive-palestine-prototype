@@ -1,0 +1,1042 @@
+{
+ "date": "2026-10-21",
+ "title": "Olive Palestine · October on the land",
+ "description": "What Palestine picks, presses and plants in October: the olive harvest, the new oil, the kitchen and the heritage around it.",
+ "topline": "Day 7 of the baladi Nabali picking",
+ "line": "Land, harvest and table, told month by month",
+ "loader": "Laying the walls",
+ "month": "October",
+ "month_line": "The month of picking, new oil and the first showers",
+ "season": {
+  "title": "The picking calendar, 2026",
+  "src": "Ministry of Agriculture, via WAFA",
+  "start": "2026-10-01",
+  "end": "2026-11-30",
+  "compact": [
+   "2026-10-06",
+   "2026-11-30"
+  ],
+  "band": [
+   "2026-10-15",
+   "2026-11-30"
+  ],
+  "events": [
+   {
+    "date": "2026-10-11",
+    "label": "Presses open for tests",
+    "short": "Presses"
+   },
+   {
+    "date": "2026-10-15",
+    "label": "Baladi Nabali picking opens",
+    "short": "Baladi Nabali"
+   },
+   {
+    "date": "2026-11-05",
+    "label": "Improved Nabali and irrigated olives",
+    "short": "Improved Nabali"
+   },
+   {
+    "date": "2026-11-26",
+    "label": "World Olive Tree Day",
+    "short": "Olive Tree Day"
+   }
+  ]
+ },
+ "counts": [
+  {
+   "n": 7,
+   "unit": "days",
+   "text": "of picking for baladi Nabali, the main rain-fed olive"
+  },
+  {
+   "n": 15,
+   "unit": "days",
+   "text": "until improved Nabali and the irrigated varieties"
+  },
+  {
+   "n": 21000,
+   "unit": "t",
+   "text": "of oil the ministry expects, three times last season"
+  }
+ ],
+ "lead": "battir-hosts-national-harvest-campaign",
+ "also": [
+  "un-harvest-attacks-pass-last-season",
+  "kisan-120-trees-cut",
+  "birin-dog-attack-on-pickers"
+ ],
+ "land": {
+  "pick": [
+   {
+    "t": "Baladi Nabali olives",
+    "note": "since 15 Oct, every governorate",
+    "href": "#ministry-sets-2026-picking-dates"
+   },
+   {
+    "t": "Medjool dates",
+    "note": "Jericho, the Jordan Valley",
+    "href": "#jericho-date-harvest-28860-tonnes"
+   },
+   {
+    "t": "The last grapes",
+    "note": "into dibs and anabiyyeh, Dura",
+    "href": "#dura-cooperative-grape-molasses"
+   }
+  ],
+  "press": [
+   {
+    "t": "New oil",
+    "note": "$13 to $26 a kilo at the press",
+    "href": "#figures"
+   },
+   {
+    "t": "One line of seven",
+    "note": "a press rebuilt, al-Zawayda",
+    "href": "#zawayda-press-rebuilt-from-rubble"
+   },
+   {
+    "t": "Olive oil soap",
+    "note": "Hebron's Old City",
+    "href": "#hebron-old-city-olive-oil-soap-maker"
+   }
+  ],
+  "plant": [
+   {
+    "t": "Winter planting",
+    "note": "Gaza: seed and fuel scarce",
+    "href": "#palms"
+   },
+   {
+    "t": "The first showers",
+    "note": "a flood warning for the valleys",
+    "href": "#palms"
+   },
+   {
+    "t": "Gardens rebuilt",
+    "note": "~100 small projects in Gaza",
+    "href": "#palms"
+   }
+  ]
+ },
+ "olives": {
+  "line": "The picking, the presses and the groves people can and cannot reach.",
+  "big": "ocha-harvest-could-recover-to-21000-tonnes",
+  "side": [
+   "deir-istiya-farmer-500-trees",
+   "gaza-groves-150000-trees-left",
+   "zawayda-press-rebuilt-from-rubble"
+  ],
+  "row": [
+   "fayyad-calls-for-awna-communal-picking",
+   "tammun-umm-al-kubaysh-picking-day",
+   "pnn-harvest-challenges-early-picking",
+   "ministry-sets-2026-picking-dates"
+  ]
+ },
+ "figures_intro": "The numbers that shape this harvest, each with the body that counted it. Prices are for new oil, straight from the press.",
+ "figures": [
+  {
+   "n": "21,000",
+   "unit": "t",
+   "text": "oil the ministry expects this season; last season's was 7,000 t",
+   "src": "OCHA, 19 Oct"
+  },
+  {
+   "n": "$13–26",
+   "unit": "/kg",
+   "text": "new oil at the press, from the northern West Bank to Beit Jala",
+   "src": "Fayyad Fayyad, Raya, 18 Oct",
+   "hot": true
+  },
+  {
+   "n": "200+",
+   "text": "settler attacks on farmers this season, against 185 in all of 2025",
+   "src": "UN, via WAFA, 16 Oct",
+   "hot": true
+  },
+  {
+   "n": "150,000",
+   "text": "of Gaza's roughly two million olive trees still standing",
+   "src": "Reuters, 14 Oct"
+  },
+  {
+   "n": "₪50–55",
+   "unit": "/litre",
+   "text": "local olive oil in Gaza, against about ₪20 for imported oil",
+   "src": "Palestinian Information Center, 17 Oct"
+  },
+  {
+   "n": "28,860",
+   "unit": "t",
+   "text": "dates forecast for this season in Jericho and the Jordan Valley",
+   "src": "WAFA, 30 Sep"
+  }
+ ],
+ "trio": [
+  {
+   "key": "vines",
+   "name": "Vines &amp; figs",
+   "now": "the last grapes go into dibs and molasses.",
+   "stories": [
+    "dura-cooperative-grape-molasses"
+   ],
+   "list": [
+    "al-khader-grape-festival-eighth",
+    "arraba-grape-farm-48-hour-order",
+    "beit-ummar-water-once-a-week"
+   ]
+  },
+  {
+   "key": "palms",
+   "name": "Palms &amp; fields",
+   "now": "Medjool picking; winter sowing waits for rain.",
+   "stories": [
+    "jericho-date-harvest-28860-tonnes"
+   ],
+   "list": [
+    "gaza-winter-planting-hampered",
+    "first-showers-flash-flood-warning",
+    "atouf-water-pipeline-destroyed"
+   ]
+  },
+  {
+   "key": "flocks",
+   "name": "Flocks",
+   "now": "stocking feed before the winter grazing thins.",
+   "stories": [
+    "masafer-yatta-feed-and-tractors-seized"
+   ],
+   "list": [
+    "gaza-livestock-and-bees-losses",
+    "wadi-abu-hindi-130-sheep-seized"
+   ]
+  }
+ ],
+ "kitchen": {
+  "line": "What the season puts on the table, and the people who make it.",
+  "recipe": {
+   "photo": "musakhan",
+   "when": "the weeks of new oil",
+   "title": "Musakhan, the dish of pressing time",
+   "dek": "Taboon bread soaked in this season’s oil, heaped with onions cooked slowly with sumac and allspice, and roast chicken on top. A dish from the Tulkarm and Jenin hills, made when the new oil comes home from the press.",
+   "need": [
+    "Taboon bread, or a thin flatbread",
+    "New-season olive oil, generously",
+    "Onions, plenty of them, sliced",
+    "Sumac and allspice",
+    "Chicken pieces",
+    "Pine nuts, fried in oil"
+   ],
+   "method": [
+    "Cook the onions slowly in plenty of oil with sumac and allspice, until soft and sweet.",
+    "Roast the chicken with the same spices; some houses add saffron.",
+    "Wet the bread with oil, spread the onions over it and set the chicken on top.",
+    "Return it to the oven so the bread takes up the oil. Finish with pine nuts and more sumac."
+   ],
+   "note": "A home method, cooked by eye: every house has its own measures.",
+   "src": "after Tamimi & Wrigley and Kassis"
+  },
+  "others": [
+   "hebron-old-city-olive-oil-soap-maker",
+   "nisaa-al-shams-online-market",
+   "um-eyad-bethlehem-pastries"
+  ]
+ },
+ "heritage": {
+  "line": "The places, crafts and customs the land has kept.",
+  "a": "sebastia-world-heritage-celebration",
+  "b": [
+   "heritage-day-launched-hebron-old-city",
+   "bayt-al-dammah-folk-games-zababdeh"
+  ]
+ },
+ "ahead": [
+  {
+   "date": "2026-10-27",
+   "when": "Delegation",
+   "text": "'Olives and Origins' harvest delegation to West Bank villages, until 5 November. Places are full.",
+   "src": "CPT"
+  },
+  {
+   "date": "2026-11-05",
+   "when": "Picking",
+   "text": "Picking opens for improved Nabali and the irrigated oil olives.",
+   "src": "Ministry of Agriculture"
+  },
+  {
+   "date": "2026-11-26",
+   "when": "Day",
+   "text": "World Olive Tree Day, proclaimed by UNESCO.",
+   "src": "UNESCO"
+  },
+  {
+   "date": "2027-04-25",
+   "when": "Until",
+   "text": "'Tatreez' embroidery exhibition at the Islamic Arts Museum Malaysia, Kuala Lumpur.",
+   "src": "IAMM"
+  }
+ ],
+ "about_html": "<b>Olive Palestine</b> follows the land of Palestine month by month: what is picked, pressed and planted, the food made from it, and the heritage kept around it. Every story names its source.",
+ "stories": {
+  "battir-hosts-national-harvest-campaign": {
+   "headline": "Students and volunteers join Battir farmers at the national harvest campaign launch",
+   "dek": "Battir, the terraced village west of Bethlehem, hosted the Bethlehem launch of the 2026 national olive campaign. Farmers told PNN that settler attacks and theft keep them from parts of their land.",
+   "place": "Battir, Bethlehem",
+   "date": "2026-10-20",
+   "published": "2026-10-20",
+   "desk": "Olives",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48366",
+   "background": false,
+   "photo": "battir-terraces",
+   "figures": [
+    {
+     "n": "~40",
+     "label": "trees left unpicked on one family's plot near an outpost"
+    }
+   ],
+   "facts": [
+    {
+     "n": "21,000 t",
+     "text": "of oil possible this season, against 7,000 t in 2025",
+     "src": "OCHA, 19 Oct"
+    },
+    {
+     "n": "200+",
+     "text": "attacks on farmers this season, more than all of 2025",
+     "src": "UN, via WAFA, 16 Oct"
+    }
+   ]
+  },
+  "un-harvest-attacks-pass-last-season": {
+   "headline": "UN: attacks on olive pickers already exceed all of last season",
+   "dek": "More than 200 settler attacks on farmers have been recorded this season, against 185 in the whole 2025 harvest, the UN spokesperson's office said. About 80 per cent happened in the past two weeks.",
+   "place": "West Bank",
+   "date": "2026-10-16",
+   "published": "2026-10-16",
+   "desk": "Olives",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175949",
+   "background": false,
+   "photo": "tel-rumeida-tree",
+   "figures": [
+    {
+     "n": "200+",
+     "label": "attacks on farmers this season"
+    },
+    {
+     "n": "185",
+     "label": "attacks in the whole 2025 season"
+    },
+    {
+     "n": "2,500+",
+     "label": "olive trees and saplings damaged"
+    }
+   ]
+  },
+  "kisan-120-trees-cut": {
+   "headline": "Kisan farmer loses 120 olive trees he tended for two decades",
+   "dek": "Settlers cut down about 120 olive trees on a 10-dunam plot beside Kisan's main road, days before the family planned to pick. The owner says he will replant.",
+   "place": "Kisan, Bethlehem",
+   "date": "2026-10-18",
+   "published": "2026-10-18",
+   "desk": "Olives",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48358",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "120",
+     "label": "olive trees cut down"
+    },
+    {
+     "n": "10 dunums",
+     "label": "size of the plot"
+    },
+    {
+     "n": "15-20 years",
+     "label": "age of the trees"
+    }
+   ]
+  },
+  "birin-dog-attack-on-pickers": {
+   "headline": "Woman, 79, bitten as settlers set dogs on olive pickers in Birin",
+   "dek": "Settlers from a new outpost near Birin, east of Hebron, released dogs on families picking olives. A 79-year-old woman was taken to hospital.",
+   "place": "Birin, Hebron",
+   "date": "2026-10-09",
+   "published": "2026-10-09",
+   "desk": "Olives",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175668",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "79",
+     "label": "age of the injured picker"
+    }
+   ]
+  },
+  "ocha-harvest-could-recover-to-21000-tonnes": {
+   "headline": "UN: olive oil could rebound to 21,000 tonnes if farmers can reach their groves",
+   "dek": "OCHA's latest situation report says the Palestinian Ministry of Agriculture expects about 21,000 tonnes of oil this season, three times last year's 7,000 tonnes. It warns that attacks and access rules threaten that recovery.",
+   "place": "West Bank (all governorates)",
+   "date": "2026-10-15",
+   "published": "2026-10-19",
+   "desk": "Olives",
+   "source": "OCHA",
+   "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026",
+   "background": false,
+   "photo": "nabali-2026",
+   "figures": [
+    {
+     "n": "21,000 t",
+     "label": "potential 2026 olive oil output (Ministry of Agriculture, via OCHA)"
+    },
+    {
+     "n": "7,000 t",
+     "label": "olive oil output in 2025"
+    },
+    {
+     "n": "199",
+     "label": "harvest-related settler attacks, 1 Sep - 12 Oct 2026"
+    },
+    {
+     "n": "80,000-100,000",
+     "label": "Palestinian families supported by the harvest"
+    },
+    {
+     "n": "88,300 dunums",
+     "label": "land requiring 'prior coordination' for 2026 (Peace Now)"
+    }
+   ]
+  },
+  "deir-istiya-farmer-500-trees": {
+   "headline": "In Deir Istiya, a 500-tree grove and a harvest worth about NIS 64,000",
+   "dek": "Farmer Abd al-Halim Mansour expects his 500 trees to give about 80 jerrycans of oil, but an outpost farm sits a few hundred metres away. The Times of Israel looks at the permits, maps and bans shaping this year's picking.",
+   "place": "Deir Istiya, Salfit",
+   "date": "2026-10-08",
+   "published": "2026-10-08",
+   "desk": "Olives",
+   "source": "The Times of Israel",
+   "url": "https://www.timesofisrael.com/west-bank-olive-harvest-an-annual-flashpoint-presses-ahead-amid-obstacles-and-violence/",
+   "background": false,
+   "photo": "qaffin-harvest",
+   "figures": [
+    {
+     "n": "500",
+     "label": "olive trees owned by Abd al-Halim Mansour"
+    },
+    {
+     "n": "~80 x 15 L",
+     "label": "jerrycans of oil his trees can yield"
+    },
+    {
+     "n": "NIS 64,000",
+     "label": "estimated value of that oil"
+    },
+    {
+     "n": "737",
+     "label": "plots on the 2026 Civil Administration coordination map"
+    }
+   ]
+  },
+  "gaza-groves-150000-trees-left": {
+   "headline": "Gaza expects 700 tonnes of oil from what is left of its groves",
+   "dek": "Barely 150,000 of Gaza's roughly two million olive trees are still standing, agriculture authorities told Reuters. The Strip expects about 5,000 tonnes of olives this year instead of 40,000.",
+   "place": "Bureij Camp, Gaza Strip",
+   "date": "2026-10-12",
+   "published": "2026-10-14",
+   "desk": "Olives",
+   "source": "Reuters",
+   "url": "https://www.omanobserver.om/article/1197832/world/region/gazans-harvest-from-destroyed-groves",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "~150,000",
+     "label": "olive trees still standing (of ~2 million)"
+    },
+    {
+     "n": "5,000 t",
+     "label": "expected olive crop (usual 40,000 t)"
+    },
+    {
+     "n": "700 t",
+     "label": "expected oil (usual ~5,000 t)"
+    },
+    {
+     "n": "~$500",
+     "label": "price of a drum of oil, about 3x pre-war"
+    }
+   ]
+  },
+  "zawayda-press-rebuilt-from-rubble": {
+   "headline": "A Gaza press owner salvages one line of seven to press this year's olives",
+   "dek": "Nasr Ouda's seven-line press was destroyed. He rebuilt one line from the rubble in Al-Zawayda so farmers can press what remains of their crop.",
+   "place": "Al-Zawayda, Deir al-Balah",
+   "date": "2026-10-14",
+   "published": "2026-10-14",
+   "desk": "Olives",
+   "source": "Palestinian Information Center",
+   "url": "https://english.palinfo.com/reports/2026/10/14/371951/",
+   "background": false,
+   "photo": "kufr-jammal-press",
+   "figures": [
+    {
+     "n": "7 -> 1",
+     "label": "production lines before and after"
+    },
+    {
+     "n": "15 t/hour",
+     "label": "former press capacity"
+    },
+    {
+     "n": "~15%",
+     "label": "share of Gaza's olive trees still standing (Ouda's estimate)"
+    }
+   ]
+  },
+  "fayyad-calls-for-awna-communal-picking": {
+   "headline": "Olive Council head calls for a return of 'awna', the communal picking tradition",
+   "dek": "Fayyad Fayyad of the Palestinian Olive Council told Raya radio that neighbours should pick together in groups this year. He cited official figures of about 2,051 attacks and 14,700 olive trees damaged in September alone.",
+   "place": "Ramallah",
+   "date": "2026-10-04",
+   "published": "2026-10-04",
+   "desk": "Olives",
+   "source": "Raya Media Network",
+   "url": "https://www.raya.ps/news/1226220.html",
+   "background": false,
+   "photo": "nablus-picking",
+   "figures": [
+    {
+     "n": "2,051",
+     "label": "attacks recorded in September 2026 (official reports cited by Fayyad)"
+    },
+    {
+     "n": "14,700",
+     "label": "olive trees uprooted or damaged in September"
+    },
+    {
+     "n": "1,000",
+     "label": "foreign solidarity volunteers expected"
+    }
+   ]
+  },
+  "tammun-umm-al-kubaysh-picking-day": {
+   "headline": "East of Tammun, owners reach their olive land for the first time in months",
+   "dek": "A picking day in the Umm al-Kubaysh area, part of the national olive campaign, let residents work land they had not reached for months. The same morning about 250 trees were cut down nearby.",
+   "place": "Tammun, Tubas",
+   "date": "2026-10-20",
+   "published": "2026-10-20",
+   "desk": "Olives",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/176124",
+   "background": false,
+   "photo": "suri-2026",
+   "figures": [
+    {
+     "n": "~250",
+     "label": "fruiting olive trees cut down the same morning"
+    }
+   ]
+  },
+  "pnn-harvest-challenges-early-picking": {
+   "headline": "Fear of attacks pushes some farmers to pick early, Olive Council warns",
+   "dek": "Some farmers are not waiting for the official dates because they fear losing the crop, the Palestinian Olive Council told PNN. In al-Mughayyir, the council head says tens of thousands of trees are out of their owners' reach.",
+   "place": "al-Mughayyir, Ramallah",
+   "date": "2026-10-09",
+   "published": "2026-10-09",
+   "desk": "Olives",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48342",
+   "background": false,
+   "photo": "gloved-hand",
+   "figures": [
+    {
+     "n": "1.1 million dunums",
+     "label": "land closed over several years"
+    },
+    {
+     "n": "~250",
+     "label": "settlement outposts set up since 7 Oct 2023"
+    },
+    {
+     "n": "~450",
+     "label": "settler attacks in the previous harvest season"
+    }
+   ]
+  },
+  "ministry-sets-2026-picking-dates": {
+   "headline": "Ministry sets picking dates: baladi Nabali from 15 October, improved Nabali from 5 November",
+   "dek": "The Palestinian Ministry of Agriculture published the 2026 calendar for picking and pressing. Presses could open for maintenance from 11 October, and the ministry's first estimate is about 21,000 tonnes of oil.",
+   "place": "Ramallah",
+   "date": "2026-09-21",
+   "published": "2026-09-21",
+   "desk": "Olives",
+   "source": "WAFA",
+   "url": "https://www.wafa.ps/news/2026/9/21/%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%82%D8%B7%D9%81-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D9%88%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B5%D8%B1-%D9%84%D9%85%D9%88%D8%B3%D9%85-2026-154364",
+   "background": true,
+   "photo": "baladi-green",
+   "figures": [
+    {
+     "n": "15 Oct",
+     "label": "start of baladi Nabali picking"
+    },
+    {
+     "n": "5 Nov",
+     "label": "start of improved Nabali and irrigated varieties"
+    },
+    {
+     "n": "11 Oct",
+     "label": "presses allowed to open for maintenance and tests"
+    },
+    {
+     "n": "21,000 t",
+     "label": "preliminary oil estimate"
+    },
+    {
+     "n": "15,000-15,500 t",
+     "label": "estimated domestic consumption"
+    },
+    {
+     "n": "4,000 t",
+     "label": "estimated export quantity"
+    }
+   ]
+  },
+  "dura-cooperative-grape-molasses": {
+   "headline": "Dura women turn surplus grapes into dibs, anabiyyeh and preserved vine leaves",
+   "dek": "A Dura cooperative processes grapes left after the fresh season into about 22 foods, more than seven tonnes a year. Dibs and anabiyyeh sell best.",
+   "place": "Dura, Hebron",
+   "date": "2026-10-20",
+   "published": "2026-10-20",
+   "desk": "Vines",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48362",
+   "background": false,
+   "photo": "hebron-grapes-2026",
+   "figures": [
+    {
+     "n": "~22",
+     "label": "products made"
+    },
+    {
+     "n": "7+ t",
+     "label": "annual output"
+    },
+    {
+     "n": "10-15",
+     "label": "women employed in season"
+    }
+   ]
+  },
+  "al-khader-grape-festival-eighth": {
+   "headline": "Al-Khader holds its eighth grape festival and market",
+   "dek": "The annual market west of Bethlehem helps growers sell grapes and grape products directly, organisers said, as settlement expansion presses on farmland.",
+   "place": "Al-Khader, Bethlehem",
+   "date": "2026-09-10",
+   "published": "2026-09-10",
+   "desk": "Vines",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48293",
+   "background": true,
+   "photo": "hebron-grapes",
+   "figures": []
+  },
+  "arraba-grape-farm-48-hour-order": {
+   "headline": "Arraba farmer given 48 hours to remove 750 grapevines weeks before harvest",
+   "dek": "Tareq Al-Shaer received a removal order for his vineyard at 10 pm on a Friday. Relatives and neighbours rushed to pick the crop early.",
+   "place": "Arraba, Jenin",
+   "date": "2026-08-19",
+   "published": "2026-08-19",
+   "desk": "Vines",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48250",
+   "background": true,
+   "photo": null,
+   "figures": [
+    {
+     "n": "~750",
+     "label": "grapevines"
+    },
+    {
+     "n": "48 hours",
+     "label": "time given to remove the farm"
+    },
+    {
+     "n": "~15",
+     "label": "people who depend on the farm"
+    }
+   ]
+  },
+  "beit-ummar-water-once-a-week": {
+   "headline": "Beit Ummar grape growers get water once a week, for an hour or two",
+   "dek": "Farmers between Beit Ummar and Halhul buy tanker water for vines and sheep. They also face settler attacks, rising costs and weak marketing.",
+   "place": "Beit Ummar, Hebron",
+   "date": "2026-09-12",
+   "published": "2026-09-12",
+   "desk": "Vines",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48294",
+   "background": true,
+   "photo": null,
+   "figures": [
+    {
+     "n": "1-2 hours",
+     "label": "weekly water supply between Beit Ummar and Halhul"
+    }
+   ]
+  },
+  "jericho-date-harvest-28860-tonnes": {
+   "headline": "Medjool picking opens in Jericho with a forecast of 28,860 tonnes",
+   "dek": "The agriculture minister launched the date harvest at the Arab Development Society farms east of Jericho. Last season's exports were about 17,000 tonnes, worth over NIS 400 million.",
+   "place": "Jericho and the Jordan Valley",
+   "date": "2026-09-30",
+   "published": "2026-09-30",
+   "desk": "Dates",
+   "source": "WAFA",
+   "url": "https://www.wafa.ps/news/2026/9/30/%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%85%D9%88%D8%B3%D9%85-%D9%82%D8%B7%D9%81-%D8%A7%D9%84%D8%AA%D9%85%D9%88%D8%B1-%D9%81%D9%8A-%D8%A3%D8%B1%D9%8A%D8%AD%D8%A7-%D9%88%D8%A7%D9%84%D8%A3%D8%BA%D9%88%D8%A7%D8%B1",
+   "background": true,
+   "photo": "jericho-dates",
+   "figures": [
+    {
+     "n": "28,860 t",
+     "label": "official 2026 date forecast"
+    },
+    {
+     "n": "~361,000",
+     "label": "date palms (350,000 fruiting)"
+    },
+    {
+     "n": "889+",
+     "label": "farms"
+    },
+    {
+     "n": "~17,000 t",
+     "label": "exports last season, worth NIS 400m+"
+    },
+    {
+     "n": "~85%",
+     "label": "share of women among ~7,000 workers"
+    },
+    {
+     "n": "37",
+     "label": "export countries"
+    }
+   ]
+  },
+  "gaza-winter-planting-hampered": {
+   "headline": "Gaza's winter planting begins with land, seed and fuel all scarce",
+   "dek": "OCHA says destroyed farmland, the yellow line and limits on inputs, engine oil and spare parts are hampering winter sowing and the few working olive presses.",
+   "place": "Gaza Strip",
+   "date": "2026-10-15",
+   "published": "2026-10-19",
+   "desk": "Fields",
+   "source": "OCHA",
+   "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026",
+   "background": false,
+   "photo": "gaza-wheat",
+   "figures": [
+    {
+     "n": "6",
+     "label": "olive presses supported with fuel and labour"
+    },
+    {
+     "n": "60",
+     "label": "olive farmers given harvesting tools"
+    },
+    {
+     "n": "400+ t/month",
+     "label": "average animal feed deliveries (FAO)"
+    },
+    {
+     "n": "~2,200",
+     "label": "livestock holders receiving fodder"
+    }
+   ]
+  },
+  "first-showers-flash-flood-warning": {
+   "headline": "First autumn showers forecast, with a flash-flood warning for valleys",
+   "dek": "The Palestinian Meteorological Department forecast scattered showers across most areas on 6 October, heaviest in the east and south, and warned of floods in valleys and low ground.",
+   "place": "West Bank (east and south)",
+   "date": "2026-10-06",
+   "published": "2026-10-05",
+   "desk": "Fields",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175472",
+   "background": false,
+   "photo": null,
+   "figures": []
+  },
+  "atouf-water-pipeline-destroyed": {
+   "headline": "Water line to Atouf plain farms destroyed in the northern Jordan Valley",
+   "dek": "Settlers wearing army uniforms destroyed a water pipeline on the Atouf plain, in Area B, a Tubas official said. The area lies on the route of a planned wall and military road.",
+   "place": "Atouf, Tubas",
+   "date": "2026-09-30",
+   "published": "2026-09-30",
+   "desk": "Fields",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175339",
+   "background": true,
+   "photo": null,
+   "figures": [
+    {
+     "n": "22 km",
+     "label": "planned wall route in Tubas and the northern Jordan Valley"
+    }
+   ]
+  },
+  "gaza-agricultural-initiatives-makshouf": {
+   "headline": "Gaza grape growers and gardeners rebuild with little seed, fertiliser or funding",
+   "dek": "PNN's Al-Makshouf programme follows Gaza farmers trying to restart. The Palestinian Agricultural Relief office says it has backed about 100 small farm projects.",
+   "place": "Gaza Strip",
+   "date": "2026-10-20",
+   "published": "2026-10-20",
+   "desk": "Fields",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48364",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "~100",
+     "label": "small agricultural initiatives supported in Gaza"
+    }
+   ]
+  },
+  "masafer-yatta-feed-and-tractors-seized": {
+   "headline": "Tractors and their loads of animal feed seized in Masafer Yatta",
+   "dek": "Israeli forces took two tractors carrying feed from brothers in Khirbet al-Fakhit, and a vehicle used to take children to school.",
+   "place": "Khirbet al-Fakhit, Masafer Yatta, Hebron",
+   "date": "2026-10-09",
+   "published": "2026-10-09",
+   "desk": "Flocks",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175672",
+   "background": false,
+   "photo": "masafer-flock",
+   "figures": []
+  },
+  "gaza-livestock-and-bees-losses": {
+   "headline": "Gaza has lost about 80% of its sheep and up to 95% of its bee colonies",
+   "dek": "A member of Gaza's agricultural emergency committee told PNN that rebuilding herds and hives could take one to five years. A beekeeper in the north is starting again from one hive pulled from his home's rubble.",
+   "place": "Gaza Strip",
+   "date": "2026-10-07",
+   "published": "2026-10-07",
+   "desk": "Flocks",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48335",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "~80%",
+     "label": "sheep lost"
+    },
+    {
+     "n": "~67%",
+     "label": "goats lost"
+    },
+    {
+     "n": "90-95%",
+     "label": "bee colonies lost"
+    },
+    {
+     "n": "1-5 years",
+     "label": "estimated recovery time"
+    }
+   ]
+  },
+  "wadi-abu-hindi-130-sheep-seized": {
+   "headline": "About 130 sheep taken from Wadi Abu Hindi Bedouin herders",
+   "dek": "Settlers raided the Bedouin community southeast of Jerusalem, assaulted shepherds and drove off around 130 sheep, the Jerusalem Governorate said.",
+   "place": "Wadi Abu Hindi, Jerusalem",
+   "date": "2026-10-04",
+   "published": "2026-10-04",
+   "desk": "Flocks",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175469",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "~130",
+     "label": "sheep seized"
+    }
+   ]
+  },
+  "um-eyad-bethlehem-pastries": {
+   "headline": "Um Eyad's home pastry kitchen in Bethlehem became her family's only income",
+   "dek": "She started with single orders, then supplied about 15 shops and some hospitals. When the economy collapsed after the war began, the business kept the family going.",
+   "place": "Bethlehem",
+   "date": "2026-10-07",
+   "published": "2026-10-07",
+   "desk": "Kitchen",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48337",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "~15",
+     "label": "shops she supplied at first"
+    }
+   ]
+  },
+  "hebron-old-city-olive-oil-soap-maker": {
+   "headline": "In Hebron's Old City, Mariam Abu Turki makes soap from olive oil and hill herbs",
+   "dek": "Abu Turki began making solid olive-oil soaps in 2017 and opened a shop in the Old City in 2023, using sage, rosemary, mint and rose.",
+   "place": "Hebron Old City",
+   "date": "2026-09-19",
+   "published": "2026-09-19",
+   "desk": "Kitchen",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48306",
+   "background": true,
+   "photo": "nablus-soap",
+   "figures": []
+  },
+  "nisaa-al-shams-online-market": {
+   "headline": "Bethlehem women's group opens an online market for home producers",
+   "dek": "Nisaa Al-Shams Association launched a platform for women's products, from soap and candles to embroidery, aiming first at local buyers and later Arab and foreign markets.",
+   "place": "Bethlehem",
+   "date": "2026-10-01",
+   "published": "2026-10-01",
+   "desk": "Kitchen",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48327",
+   "background": false,
+   "photo": "zaatar",
+   "figures": []
+  },
+  "gaza-family-cannot-afford-oil": {
+   "headline": "A Gaza family that once stored five tins of oil now cannot buy a litre",
+   "dek": "Um Mazen Sobeih's land east of Gaza City is beyond the yellow line. Local oil now sells for NIS 50-55 a litre and olives for NIS 20 a kilo, a food-security expert's data shows.",
+   "place": "East Gaza City",
+   "date": "2026-10-17",
+   "published": "2026-10-17",
+   "desk": "Market",
+   "source": "Palestinian Information Center",
+   "url": "https://english.palinfo.com/reports/2026/10/17/372109/",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "NIS 50-55",
+     "label": "litre of local olive oil in Gaza"
+    },
+    {
+     "n": "NIS ~20",
+     "label": "litre of imported oil"
+    },
+    {
+     "n": "NIS 5 -> 20",
+     "label": "kilo of olives, pre-war to now"
+    },
+    {
+     "n": "50,000 -> 5,000 dunums",
+     "label": "olive area in Gaza"
+    },
+    {
+     "n": "JD 120",
+     "label": "former price of one tin of the family's oil"
+    }
+   ]
+  },
+  "sebastia-world-heritage-celebration": {
+   "headline": "Palestine marks Sebastia's listing as a World Heritage site",
+   "dek": "Tourism Minister Hani al-Hayek called the listing a new phase of work to protect and develop the hilltop town. UNESCO inscribed Sebastia in July under its emergency procedure, also placing it on the List in Danger.",
+   "place": "Sebastia, Nablus",
+   "date": "2026-10-17",
+   "published": "2026-10-17",
+   "desk": "Heritage",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175977",
+   "background": false,
+   "photo": "sebastia-columns",
+   "figures": [
+    {
+     "n": "24 Jul 2026",
+     "label": "date of inscription (48th World Heritage Committee, Busan)"
+    },
+    {
+     "n": "2012",
+     "label": "year the nomination was first submitted"
+    }
+   ]
+  },
+  "heritage-day-launched-hebron-old-city": {
+   "headline": "Palestinian Heritage Day opens in Hebron's Old City with 35-40 events nationwide",
+   "dek": "Culture Minister Emad Hamdan launched this year's Heritage Day from Hebron's Old City, a World Heritage site in Danger, with exhibitions, talks and workshops planned in every governorate, Jerusalem and Gaza included.",
+   "place": "Hebron Old City",
+   "date": "2026-10-07",
+   "published": "2026-10-07",
+   "desk": "Heritage",
+   "source": "WAFA",
+   "url": "https://www.wafa.ps/news/2026/10/7/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%AA%D8%B7%D9%84%D9%82-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB",
+   "background": false,
+   "photo": "hebron-dress",
+   "figures": [
+    {
+     "n": "35-40",
+     "label": "Heritage Day events across governorates"
+    }
+   ]
+  },
+  "bayt-al-dammah-folk-games-zababdeh": {
+   "headline": "A Zababdeh centre revives Palestinian folk games, including one built on Sebastia's olive press",
+   "dek": "Bayt Al-Dammah teaches strategy and movement games and games that recall depopulated villages. Its director wants a catalogue and digital archive.",
+   "place": "Zababdeh, Jenin",
+   "date": "2026-10-07",
+   "published": "2026-10-07",
+   "desk": "Heritage",
+   "source": "PNN",
+   "url": "https://english.pnn.ps/news/48336",
+   "background": false,
+   "photo": "natsheh-press",
+   "figures": [
+    {
+     "n": "293",
+     "label": "projects it was selected from"
+    }
+   ]
+  },
+  "fayyad-oil-prices-four-regions": {
+   "headline": "Fresh oil sells from $13 a kilo in the north to $26 in Beit Jala",
+   "dek": "In a Raya column, Olive Council head Fayyad Fayyad lists four price levels for new oil straight from the press. He expects prices to ease by December as cheaper and smuggled oil arrives.",
+   "place": "West Bank",
+   "date": "2026-10-17",
+   "published": "2026-10-18",
+   "desk": "Market",
+   "source": "Raya Media Network",
+   "url": "https://www.raya.ps/articles/1227094.html",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "$13/kg",
+     "label": "northern West Bank, at the press"
+    },
+    {
+     "n": "$17/kg",
+     "label": "Ramallah and Jerusalem"
+    },
+    {
+     "n": "$21.8/kg",
+     "label": "Hebron"
+    },
+    {
+     "n": "$26/kg",
+     "label": "Beit Jala"
+    },
+    {
+     "n": "< EUR 5/kg",
+     "label": "exchange prices in Spain, Greece, Turkey, Tunisia"
+    }
+   ]
+  }
+ }
+}
