@@ -37,6 +37,8 @@ PHOTOS = {
                       "The stone wheel of the old al-Natsheh press, Hebron's Old City, 2019", None),
     'sebastia-columns': ('File:الأعمدة الرومانية القديمة في مدينة سبسطية.jpg', "A row of Roman columns standing among stone blocks on Sebastia's hill",
                          'The Roman columns of Sebastia, Nablus, July 2023', None),
+    'ramla-dress': ('File:Ramla Dress (Palestinian Thobe).jpg', 'A black village dress with dense red cross-stitch on the chest, sleeves and skirt',
+                    'A Ramla village dress in the Tiraz museum, July 2021', '50% 30%'),
     'hebron-dress': ('File:Palestinian Dress in Hebron Old City.jpg', 'An embroidered dress on a mannequin in a stone-paved market alley',
                      "An embroidered dress in the market of Hebron's Old City, June 2023", '50% 30%'),
     'jericho-dates': ("File:'Palm date harvesting(Jericho)'.jpg", 'Date bunches tied in protective bags high on a palm trunk',
@@ -78,6 +80,10 @@ ART = {
     'bayt-al-dammah-folk-games-zababdeh': 'natsheh-press',
     'nisaa-al-shams-online-market': 'zaatar',
     'un-harvest-attacks-pass-last-season': 'tel-rumeida-tree',
+    'fayyad-oil-prices-four-regions': 'kufr-jammal-press',
+    'cal-improved-nabali-picking-5-nov': 'nabali-2026',
+    'cal-world-olive-tree-day-26-nov': 'tel-rumeida-tree',
+    'cal-iamm-tatreez-until-april-2027': 'ramla-dress',
 }
 
 DESK = {'olives': 'Olives', 'market': 'Market', 'vines': 'Vines', 'palms': 'Dates', 'fields': 'Fields', 'flocks': 'Flocks',
@@ -94,7 +100,8 @@ def story(i):
     n = NEWS[i]
     return {'headline': n['headline'], 'dek': n['summary'], 'place': n['place'], 'date': n['date'], 'published': n['published'],
             'desk': DESK[n['desk']], 'source': outlet(n['source']), 'url': n['url'], 'background': bool(n.get('background')),
-            'photo': ART.get(i), 'figures': n.get('figures', [])}
+            'photo': ART.get(i), 'figures': n.get('figures', []), 'body': n.get('body', []), 'people': n.get('people', []),
+            'lang': n.get('source_lang', 'en'), 'key': n['desk']}
 
 
 USED = ['battir-hosts-national-harvest-campaign', 'un-harvest-attacks-pass-last-season', 'kisan-120-trees-cut', 'birin-dog-attack-on-pickers',
@@ -117,10 +124,10 @@ E = {
     'month_line': 'The month of picking, new oil and the first showers',
     'season': {'title': 'The picking calendar, 2026', 'src': 'Ministry of Agriculture, via WAFA',
                'start': '2026-10-01', 'end': '2026-11-30', 'compact': ['2026-10-06', '2026-11-30'], 'band': ['2026-10-15', '2026-11-30'],
-               'events': [{'date': '2026-10-11', 'label': 'Presses open for tests', 'short': 'Presses'},
-                          {'date': '2026-10-15', 'label': 'Baladi Nabali picking opens', 'short': 'Baladi Nabali'},
-                          {'date': '2026-11-05', 'label': 'Improved Nabali and irrigated olives', 'short': 'Improved Nabali'},
-                          {'date': '2026-11-26', 'label': 'World Olive Tree Day', 'short': 'Olive Tree Day'}]},
+               'events': [{'date': '2026-10-11', 'label': 'Presses open for tests', 'short': 'Presses', 'sid': 'ministry-sets-2026-picking-dates'},
+                          {'date': '2026-10-15', 'label': 'Baladi Nabali picking opens', 'short': 'Baladi Nabali', 'sid': 'ministry-sets-2026-picking-dates'},
+                          {'date': '2026-11-05', 'label': 'Improved Nabali and irrigated olives', 'short': 'Improved Nabali', 'sid': 'cal-improved-nabali-picking-5-nov'},
+                          {'date': '2026-11-26', 'label': 'World Olive Tree Day', 'short': 'Olive Tree Day', 'kind': 'Day', 'src': 'UNESCO', 'sid': 'cal-world-olive-tree-day-26-nov'}]},
     'counts': [{'n': 7, 'unit': 'days', 'text': 'of picking for baladi Nabali, the main rain-fed olive'},
                {'n': 15, 'unit': 'days', 'text': 'until improved Nabali and the irrigated varieties'},
                {'n': 21000, 'unit': 't', 'text': 'of oil the ministry expects, three times last season'}],
@@ -132,7 +139,7 @@ E = {
         'pick': [{'t': 'Baladi Nabali olives', 'note': 'since 15 Oct, every governorate', 'href': '#ministry-sets-2026-picking-dates'},
                  {'t': 'Medjool dates', 'note': 'Jericho, the Jordan Valley', 'href': '#jericho-date-harvest-28860-tonnes'},
                  {'t': 'The last grapes', 'note': 'into dibs and anabiyyeh, Dura', 'href': '#dura-cooperative-grape-molasses'}],
-        'press': [{'t': 'New oil', 'note': '$13 to $26 a kilo at the press', 'href': '#figures'},
+        'press': [{'t': 'New oil', 'note': '$13 to $26 a kilo at the press', 'href': '#prices'},
                   {'t': 'One line of seven', 'note': 'a press rebuilt, al-Zawayda', 'href': '#zawayda-press-rebuilt-from-rubble'},
                   {'t': 'Olive oil soap', 'note': "Hebron's Old City", 'href': '#hebron-old-city-olive-oil-soap-maker'}],
         'plant': [{'t': 'Winter planting', 'note': 'Gaza: seed and fuel scarce', 'href': '#palms'},
@@ -174,7 +181,7 @@ E = {
               {'date': '2026-11-26', 'when': 'Day', 'text': 'World Olive Tree Day, proclaimed by UNESCO.', 'src': 'UNESCO'},
               {'date': '2027-04-25', 'when': 'Until', 'text': "'Tatreez' embroidery exhibition at the Islamic Arts Museum Malaysia, Kuala Lumpur.", 'src': 'IAMM'}],
     'about_html': '<b>Olive Palestine</b> follows the land of Palestine month by month: what is picked, pressed and planted, the food made from it, and the heritage kept around it. Every story names its source.',
-    'stories': {i: story(i) for i in USED},
+    'stories': {i: story(i) for i in USED + [k for k in NEWS if k not in USED]},
 }
 E['stories'][E['lead']]['facts'] = E.pop('lead_facts')
 

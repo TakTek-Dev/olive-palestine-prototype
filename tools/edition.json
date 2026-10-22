@@ -24,22 +24,28 @@
    {
     "date": "2026-10-11",
     "label": "Presses open for tests",
-    "short": "Presses"
+    "short": "Presses",
+    "sid": "ministry-sets-2026-picking-dates"
    },
    {
     "date": "2026-10-15",
     "label": "Baladi Nabali picking opens",
-    "short": "Baladi Nabali"
+    "short": "Baladi Nabali",
+    "sid": "ministry-sets-2026-picking-dates"
    },
    {
     "date": "2026-11-05",
     "label": "Improved Nabali and irrigated olives",
-    "short": "Improved Nabali"
+    "short": "Improved Nabali",
+    "sid": "cal-improved-nabali-picking-5-nov"
    },
    {
     "date": "2026-11-26",
     "label": "World Olive Tree Day",
-    "short": "Olive Tree Day"
+    "short": "Olive Tree Day",
+    "kind": "Day",
+    "src": "UNESCO",
+    "sid": "cal-world-olive-tree-day-26-nov"
    }
   ]
  },
@@ -88,7 +94,7 @@
    {
     "t": "New oil",
     "note": "$13 to $26 a kilo at the press",
-    "href": "#figures"
+    "href": "#prices"
    },
    {
     "t": "One line of seven",
@@ -296,6 +302,36 @@
      "label": "trees left unpicked on one family's plot near an outpost"
     }
    ],
+   "body": [
+    "Students, volunteers and officials joined farmers in Battir to pick olives, PNN reported. The event was organised by the Students' Forum's Youth Incubator, the governorate's emergency committee, Battir municipality and the committee against the wall and settlements.",
+    "Mayor Akram Bader said the turnout showed solidarity and affirmed Palestinians' right to their land. Mohammad Jaafari of Bethlehem Governorate said harvesting had resumed after years of serious access problems.",
+    "Farmer Mahmoud Hussein said settler attacks and theft make it hard to reach his grove, and spoke of unemployment and hardship. He said he would never leave the land.",
+    "Um Mohammad said about 40 trees on her family's plot near an outpost remain unpicked because the family is afraid to go there; some of their olives had already been taken."
+   ],
+   "people": [
+    {
+     "name": "Akram Bader",
+     "role": "Mayor of Battir"
+    },
+    {
+     "name": "Mohammad Jaafari",
+     "role": "Director-general of public affairs, Bethlehem Governorate"
+    },
+    {
+     "name": "Mahmoud Hussein",
+     "role": "Farmer, Battir"
+    },
+    {
+     "name": "Um Mohammad",
+     "role": "Farmer, Battir"
+    },
+    {
+     "name": "Munther Amira",
+     "role": "Head, Coordinating Committee for Resistance to the Wall and Settlements"
+    }
+   ],
+   "lang": "en",
+   "key": "olives",
    "facts": [
     {
      "n": "21,000 t",
@@ -333,7 +369,20 @@
      "n": "2,500+",
      "label": "olive trees and saplings damaged"
     }
-   ]
+   ],
+   "body": [
+    "UN Deputy Spokesperson Farhan Haq told reporters in New York that OCHA had recorded more than 200 attacks affecting the olive harvest this season, compared with 185 in the entire 2025 season, WAFA reported.",
+    "The attacks have killed one Palestinian, injured more than 120 and damaged over 2,500 olive trees and saplings. Around 80 per cent took place in the previous two weeks.",
+    "Haq said UN humanitarian partners are giving farmers equipment and supplies, monitoring access restrictions near settlements and behind the 712-kilometre Barrier, and offering legal help."
+   ],
+   "people": [
+    {
+     "name": "Farhan Haq",
+     "role": "UN Deputy Spokesperson for the Secretary-General"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
   },
   "kisan-120-trees-cut": {
    "headline": "Kisan farmer loses 120 olive trees he tended for two decades",
@@ -359,7 +408,21 @@
      "n": "15-20 years",
      "label": "age of the trees"
     }
-   ]
+   ],
+   "body": [
+    "Ali Abu Diyeh arrived at his land in Kisan, southeast of Bethlehem, early on Sunday to find about 120 olive trees uprooted, PNN reported. WAFA, which spells his name Ali Mousa Abu Daya, reported the same figure.",
+    "The trees, 15 to 20 years old, stood on a 10-dunam plot on the village's main road near the mosque. He had planted and cared for them for twenty years, and the family was about to harvest.",
+    "He said settlers had damaged the fence around the plot about two months earlier, and that he was then prevented from rebuilding it. He has filed complaints with the Israeli police and the Palestinian liaison office.",
+    "Abu Diyeh said he would stay and replant, and asked the Ministry of Agriculture and civil groups to support local farmers."
+   ],
+   "people": [
+    {
+     "name": "Ali Abu Diyeh (Ali Mousa Abu Daya)",
+     "role": "Landowner and farmer, Kisan"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
   },
   "birin-dog-attack-on-pickers": {
    "headline": "Woman, 79, bitten as settlers set dogs on olive pickers in Birin",
@@ -377,7 +440,19 @@
      "n": "79",
      "label": "age of the injured picker"
     }
-   ]
+   ],
+   "body": [
+    "Birin village council head Farid Barqan told WAFA that settlers from the newly built Adorim outpost, on Palestinian land near the village, set their dogs on farmers during the harvest.",
+    "One dog bit a 79-year-old woman on the thigh. Ambulance crews took her to hospital with moderate injuries."
+   ],
+   "people": [
+    {
+     "name": "Farid Barqan",
+     "role": "Head of Birin village council"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
   },
   "ocha-harvest-could-recover-to-21000-tonnes": {
    "headline": "UN: olive oil could rebound to 21,000 tonnes if farmers can reach their groves",
@@ -411,7 +486,17 @@
      "n": "88,300 dunums",
      "label": "land requiring 'prior coordination' for 2026 (Peace Now)"
     }
-   ]
+   ],
+   "body": [
+    "The UN Office for the Coordination of Humanitarian Affairs (OCHA) says the 2026 harvest, officially due to open on 15 October, is taking place amid escalating settler violence and widening access restrictions.",
+    "Citing the Palestinian Ministry of Agriculture, OCHA says oil output could reach about 21,000 tonnes this year against 7,000 tonnes in 2025, provided farmers can reach and pick their groves. The harvest supports an estimated 80,000 to 100,000 families.",
+    "Between 1 September and 12 October OCHA documented 199 harvest-related settler attacks, one death, 124 injuries and damage to more than 2,500 trees and saplings. Around 60 per cent of the attacks were in Ramallah governorate.",
+    "Access to land behind the Barrier remains tight: most of roughly 20,000 farming-permit holders have been unable to reach their land since October 2023, and the area needing 'prior coordination' near settlements has grown to about 88,300 dunums, according to Peace Now figures cited in the report.",
+    "Aid partners plan harvesting tools, machinery, collective picking and transport of olives to presses across nine governorates."
+   ],
+   "people": [],
+   "lang": "en",
+   "key": "olives"
   },
   "deir-istiya-farmer-500-trees": {
    "headline": "In Deir Istiya, a 500-tree grove and a harvest worth about NIS 64,000",
@@ -441,7 +526,33 @@
      "n": "737",
      "label": "plots on the 2026 Civil Administration coordination map"
     }
-   ]
+   ],
+   "body": [
+    "Abd al-Halim Mansour, who owns 500 olive trees in Deir Istiya, told the Times of Israel the harvest could be difficult this year. A settler outpost farm stands several hundred metres from his trees.",
+    "He estimated the trees can yield about 80 jerrycans of 15 litres each, worth roughly NIS 64,000, more than 20 average monthly Palestinian Authority salaries.",
+    "In nearby Kafr ad-Dik, Fares al-Dik said he has not been able to reach his 550 trees for four years. They once gave 110 to 140 litres of oil a year.",
+    "The Civil Administration's 2026 map lists 737 plots that need coordination or are closed to Israelis, more than 70 above last year. Deir Istiya council head Izzat Mansour said farmers were warned not to bring volunteers; Aviv Tatarsky, who has led Israeli volunteers in the village for 16 years, said the group would not comply."
+   ],
+   "people": [
+    {
+     "name": "Abd al-Halim Mansour",
+     "role": "Olive farmer, Deir Istiya"
+    },
+    {
+     "name": "Fares al-Dik",
+     "role": "Farmer, Kafr ad-Dik"
+    },
+    {
+     "name": "Izzat Mansour",
+     "role": "Head of Deir Istiya village council"
+    },
+    {
+     "name": "Aviv Tatarsky",
+     "role": "Leader of an Israeli volunteer group helping with the harvest"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
   },
   "gaza-groves-150000-trees-left": {
    "headline": "Gaza expects 700 tonnes of oil from what is left of its groves",
@@ -471,7 +582,21 @@
      "n": "~$500",
      "label": "price of a drum of oil, about 3x pre-war"
     }
-   ]
+   ],
+   "body": [
+    "Gaza's agriculture authorities expect about 5,000 tonnes of olives this season, against a usual 40,000, which would give roughly 700 tonnes of oil instead of about 5,000, Reuters reported.",
+    "Of some two million olive trees before the war, barely 150,000 remain. Nearly half of the orchard lies beyond the 'yellow line' held by Israeli troops, and most of the reachable half has been bulldozed.",
+    "Oil that does reach market sells for nearly $500 a drum, about three times the pre-war price and out of reach for most families.",
+    "A Reuters photo taken on 12 October shows farmer Haidar Abu Middain, 60, looking at damaged trees on his land in Bureij camp."
+   ],
+   "people": [
+    {
+     "name": "Haidar Abu Middain",
+     "role": "Farmer, Bureij camp (photographed; not quoted)"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
   },
   "zawayda-press-rebuilt-from-rubble": {
    "headline": "A Gaza press owner salvages one line of seven to press this year's olives",
@@ -497,7 +622,25 @@
      "n": "~15%",
      "label": "share of Gaza's olive trees still standing (Ouda's estimate)"
     }
-   ]
+   ],
+   "body": [
+    "In Al-Zawayda in central Gaza, farmers are bringing small loads to a press whose single production line was recovered from rubble, the Palestinian Information Center reported.",
+    "Owner Nasr Ouda said his facility used to run seven lines with a capacity of 15 tonnes an hour. After it was destroyed he salvaged enough parts for one line, moved it to Al-Zawayda near Deir al-Balah and reassembled it.",
+    "He estimates that only about 15 per cent of Gaza's olive trees survive, and said the press has lost workers and engineers in the war.",
+    "Kareeman Shurrab of Khan Younis told the outlet she had not eaten an olive from her land in four years."
+   ],
+   "people": [
+    {
+     "name": "Nasr Ouda",
+     "role": "Farm and olive press owner"
+    },
+    {
+     "name": "Kareeman Shurrab",
+     "role": "Resident of Khan Younis"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
   },
   "fayyad-calls-for-awna-communal-picking": {
    "headline": "Olive Council head calls for a return of 'awna', the communal picking tradition",
@@ -523,7 +666,21 @@
      "n": "1,000",
      "label": "foreign solidarity volunteers expected"
     }
-   ]
+   ],
+   "body": [
+    "Fayyad Fayyad, director general of the Palestinian Olive Council and an adviser to the International Olive Council, told Raya radio that the season was opening under unprecedented pressure.",
+    "He cited official reports of about 2,051 attacks by the army and settlers in September, with around 14,700 olive trees uprooted or damaged, mostly in Ramallah, Nablus and Hebron governorates.",
+    "Fayyad called for a revival of 'al-awna', the old village practice of neighbours helping each other with the harvest. Families with adjoining plots, he said, should pick together in organised groups to deter attacks and protect the crop, while not putting lives at risk.",
+    "He asked universities, student unions and local groups to send volunteers to frontline areas, and said around 1,000 foreign solidarity volunteers were expected and would be placed with villages in coordination with officials."
+   ],
+   "people": [
+    {
+     "name": "Fayyad Fayyad",
+     "role": "Director general, Palestinian Olive Council"
+    }
+   ],
+   "lang": "ar",
+   "key": "olives"
   },
   "tammun-umm-al-kubaysh-picking-day": {
    "headline": "East of Tammun, owners reach their olive land for the first time in months",
@@ -541,7 +698,20 @@
      "n": "~250",
      "label": "fruiting olive trees cut down the same morning"
     }
-   ]
+   ],
+   "body": [
+    "Residents, officials and volunteers picked olives in Umm al-Kubaysh, east of Tammun in Tubas governorate, as part of the 2026 national olive campaign, WAFA reported.",
+    "Omar Bisharat, the Ministry of Agriculture's director in Tubas, said the campaign aims to get people onto threatened land that settlers and the army often stop them from reaching.",
+    "Residents said it was their first time on the land in months. Earlier that morning, settlers had cut down about 250 fruiting olive trees belonging to a local resident in the same area."
+   ],
+   "people": [
+    {
+     "name": "Omar Bisharat",
+     "role": "Director, Ministry of Agriculture in Tubas"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
   },
   "pnn-harvest-challenges-early-picking": {
    "headline": "Fear of attacks pushes some farmers to pick early, Olive Council warns",
@@ -567,7 +737,29 @@
      "n": "~450",
      "label": "settler attacks in the previous harvest season"
     }
-   ]
+   ],
+   "body": [
+    "Fayyad Fayyad told PNN that the official dates are not being kept everywhere: in some areas farmers are picking early to get ahead of settler attacks. He warned this can lower both the quantity and quality of oil, and urged each village to draw up its own plan, putting people's safety first.",
+    "Amir Daoud of the Wall and Settlement Resistance Commission said this season would be more difficult and dangerous than previous ones.",
+    "In al-Mughayyir, northeast of Ramallah, village council head Amin Abu Alia said tens of thousands of olive trees belonging to residents are beyond their reach.",
+    "According to figures in the report, about 1.1 million dunums have been closed off over the years, about 250 outposts have been set up since October 2023, and nearly 450 settler attacks were recorded in the previous harvest season."
+   ],
+   "people": [
+    {
+     "name": "Fayyad Fayyad",
+     "role": "Director general, Palestinian Olive Council"
+    },
+    {
+     "name": "Amir Daoud",
+     "role": "Director general of documentation, Wall and Settlement Resistance Commission"
+    },
+    {
+     "name": "Amin Abu Alia",
+     "role": "Head of al-Mughayyir village council"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
   },
   "ministry-sets-2026-picking-dates": {
    "headline": "Ministry sets picking dates: baladi Nabali from 15 October, improved Nabali from 5 November",
@@ -605,7 +797,17 @@
      "n": "4,000 t",
      "label": "estimated export quantity"
     }
-   ]
+   ],
+   "body": [
+    "The Ministry of Agriculture announced the season's dates on 21 September, saying they were based on field monitoring of fruit ripeness and oil quality, WAFA reported.",
+    "Olives for pickling could be picked from 20 September. Baladi (local) Nabali for oil from Thursday 15 October, and improved Nabali and irrigated oil varieties from 5 November, once colour change is complete.",
+    "Presses were allowed to open from Sunday 11 October for maintenance and test runs, with intake following the picking dates. District directors may delay picking where local conditions call for it.",
+    "The ministry's preliminary estimate is about 21,000 tonnes of oil, against domestic consumption of 15,000 to 15,500 tonnes and about 4,000 tonnes for export. It said the figure would be revised as the season progresses.",
+    "This year the national picking campaign is run through local committees in each village, led by local councils with volunteers and community groups."
+   ],
+   "people": [],
+   "lang": "ar",
+   "key": "olives"
   },
   "dura-cooperative-grape-molasses": {
    "headline": "Dura women turn surplus grapes into dibs, anabiyyeh and preserved vine leaves",
@@ -631,7 +833,25 @@
      "n": "10-15",
      "label": "women employed in season"
     }
-   ]
+   ],
+   "body": [
+    "The Dura Cooperative Food Processing Association takes grapes left over after local sales and turns them into foods that keep, PNN reported.",
+    "Head Huda Suleiman Shdeid said grape products are part of Palestinian heritage and help keep farmers working their vines.",
+    "Member Bisan Nassar said the group makes about 22 products, from dibs (grape molasses) and anabiyyeh to fruit leather, vinegar, raisins, jams and preserved vine leaves, with annual output above seven tonnes.",
+    "In season the kitchen employs 10 to 15 women. Two members sell at Hebron's weekly Saturday market."
+   ],
+   "people": [
+    {
+     "name": "Huda Suleiman Shdeid",
+     "role": "Head, Dura Cooperative Food Processing Association"
+    },
+    {
+     "name": "Bisan Nassar",
+     "role": "Member of the association"
+    }
+   ],
+   "lang": "en",
+   "key": "vines"
   },
   "al-khader-grape-festival-eighth": {
    "headline": "Al-Khader holds its eighth grape festival and market",
@@ -644,7 +864,28 @@
    "url": "https://english.pnn.ps/news/48293",
    "background": true,
    "photo": "hebron-grapes",
-   "figures": []
+   "figures": [],
+   "body": [
+    "The eighth Al-Khader Grape Festival and Market opened in the town west of Bethlehem, organised by the Palestinian Agricultural Relief Committees (PARC), the Bethlehem Chamber of Commerce, the Ministry of Agriculture and the municipality, PNN reported.",
+    "Governor Mohammad Taha Abu Alia said agriculture is a source of pride and a symbol tied to the land. Deputy Agriculture Minister Tareq Abu Laban attended.",
+    "Speakers said the yearly market has become a tradition that links growers with buyers and helps them stay on their land."
+   ],
+   "people": [
+    {
+     "name": "Mohammad Taha Abu Alia",
+     "role": "Governor of Bethlehem"
+    },
+    {
+     "name": "Tareq Abu Laban",
+     "role": "Deputy Minister of Agriculture"
+    },
+    {
+     "name": "Ziad Salah",
+     "role": "Director, PARC Bethlehem"
+    }
+   ],
+   "lang": "en",
+   "key": "vines"
   },
   "arraba-grape-farm-48-hour-order": {
    "headline": "Arraba farmer given 48 hours to remove 750 grapevines weeks before harvest",
@@ -670,7 +911,20 @@
      "n": "~15",
      "label": "people who depend on the farm"
     }
-   ]
+   ],
+   "body": [
+    "Tareq Al-Shaer, a farmer in Arraba southwest of Jenin, said he was ordered to remove his grape farm within 48 hours, PNN reported. The notice came at about 10 pm on a Friday.",
+    "The farm has about 750 vines, some on metal trellises, plus a room, sheds, irrigation and water tanks. The grapes needed another 20 to 25 days; about 15 people depend on the farm.",
+    "Family, friends and neighbours helped pick the unripe crop. He said: \"Take whatever you want, but don't take the land and don't cut the grapevines.\""
+   ],
+   "people": [
+    {
+     "name": "Tareq Al-Shaer",
+     "role": "Grape farmer, Arraba"
+    }
+   ],
+   "lang": "en",
+   "key": "vines"
   },
   "beit-ummar-water-once-a-week": {
    "headline": "Beit Ummar grape growers get water once a week, for an hour or two",
@@ -688,7 +942,24 @@
      "n": "1-2 hours",
      "label": "weekly water supply between Beit Ummar and Halhul"
     }
-   ]
+   ],
+   "body": [
+    "Ibrahim Al-Sabarneh grows grapes, sells grapes and vine leaves and raises sheep in Beit Ummar, north of Hebron, PNN reported.",
+    "He said water reaches the area between Beit Ummar and Halhul once a week for one to two hours, so farmers buy and truck water for land and livestock. Tankers and storage tanks before winter would help, he said.",
+    "In summer growers tend and sell grapes; in winter they clear land, replace damaged vines and prune. Popular Committees coordinator Yousef Abu Maria said local produce struggles against Israeli goods in the market."
+   ],
+   "people": [
+    {
+     "name": "Ibrahim Al-Sabarneh",
+     "role": "Grape grower and sheep farmer, Beit Ummar"
+    },
+    {
+     "name": "Yousef Abu Maria",
+     "role": "Coordinator, Popular Committees in the southern West Bank"
+    }
+   ],
+   "lang": "en",
+   "key": "vines"
   },
   "jericho-date-harvest-28860-tonnes": {
    "headline": "Medjool picking opens in Jericho with a forecast of 28,860 tonnes",
@@ -726,7 +997,33 @@
      "n": "37",
      "label": "export countries"
     }
-   ]
+   ],
+   "body": [
+    "The date harvest opened on 30 September at the farms of the Arab Development Society (al-Mashrou' al-Insha'i al-Arabi) east of Jericho, WAFA reported.",
+    "Agriculture Minister Rizq Salimia gave an official forecast of 28,860 tonnes. Field teams counted about 361,000 palms, 350,000 of them fruiting, on more than 889 farms, after visiting over 170 large farms and checking 100 smaller ones.",
+    "He valued the sector at about NIS 2.1 billion with around 7,000 jobs; about 85 per cent of workers are women, mostly in packing houses. Last season's exports reached about 17,000 tonnes, worth more than NIS 400 million.",
+    "Governor Hussein Hamayel said settlement products must not enter Palestinian markets. Jericho chamber head Tayseer al-Hmeidi said Palestinian dates go to 37 countries."
+   ],
+   "people": [
+    {
+     "name": "Rizq Salimia",
+     "role": "Palestinian Minister of Agriculture"
+    },
+    {
+     "name": "Hussein Hamayel",
+     "role": "Governor of Jericho and the Jordan Valley"
+    },
+    {
+     "name": "Tayseer al-Hmeidi",
+     "role": "Head, Jericho chamber of commerce"
+    },
+    {
+     "name": "Wissam Shaheen",
+     "role": "Board member, Arab Development Society"
+    }
+   ],
+   "lang": "ar",
+   "key": "palms"
   },
   "gaza-winter-planting-hampered": {
    "headline": "Gaza's winter planting begins with land, seed and fuel all scarce",
@@ -756,7 +1053,15 @@
      "n": "~2,200",
      "label": "livestock holders receiving fodder"
     }
-   ]
+   ],
+   "body": [
+    "With the winter planting season and the olive harvest under way, OCHA says widespread destruction of farmland and groves, restricted access beyond the 'yellow line' and limits on agricultural inputs, engine oil and spare parts are severely hampering cultivation.",
+    "Partners gave harvesting tools to 60 olive farmers and supported six working presses with fuel and cash-for-work labour, allowing subsidised pressing for smallholders.",
+    "According to FAO, animal feed deliveries over the past year averaged more than 400 tonnes a month. Fodder distributions to about 2,200 livestock holders continue."
+   ],
+   "people": [],
+   "lang": "en",
+   "key": "fields"
   },
   "first-showers-flash-flood-warning": {
    "headline": "First autumn showers forecast, with a flash-flood warning for valleys",
@@ -769,7 +1074,15 @@
    "url": "https://english.wafa.ps/Pages/Details/175472",
    "background": false,
    "photo": null,
-   "figures": []
+   "figures": [],
+   "body": [
+    "The Palestinian Meteorological Department forecast cloudy weather and scattered showers across most areas from early on Tuesday 6 October, particularly in the east and south, WAFA reported.",
+    "Temperatures were expected to fall about two degrees below the annual average. The department warned of flash floods in valleys and low-lying areas and of skidding on wet roads.",
+    "A week earlier, on 29 September, the department had already forecast light scattered rain, mainly in the north."
+   ],
+   "people": [],
+   "lang": "en",
+   "key": "fields"
   },
   "atouf-water-pipeline-destroyed": {
    "headline": "Water line to Atouf plain farms destroyed in the northern Jordan Valley",
@@ -787,7 +1100,19 @@
      "n": "22 km",
      "label": "planned wall route in Tubas and the northern Jordan Valley"
     }
-   ]
+   ],
+   "body": [
+    "Mutaz Bsharat, who follows Jordan Valley affairs for Tubas governorate, told WAFA that a group of settlers in army uniforms destroyed a water pipeline in the Atouf plain, southeast of Tubas.",
+    "Atouf has seen repeated land levelling this year for the project known as the 'Crimson Thread', a planned military road and 22-kilometre wall in Tubas and the northern Jordan Valley. Atouf and the al-Baqi'a plain are among the worst affected areas."
+   ],
+   "people": [
+    {
+     "name": "Mutaz Bsharat",
+     "role": "Official for Jordan Valley affairs, Tubas Governorate"
+    }
+   ],
+   "lang": "en",
+   "key": "fields"
   },
   "gaza-agricultural-initiatives-makshouf": {
    "headline": "Gaza grape growers and gardeners rebuild with little seed, fertiliser or funding",
@@ -805,7 +1130,24 @@
      "n": "~100",
      "label": "small agricultural initiatives supported in Gaza"
     }
-   ]
+   ],
+   "body": [
+    "PNN's programme Al-Makshouf looked at damage to Gaza's farmland, shortages of inputs and rising production costs.",
+    "It met Mahmoud Sikkik, who lost both legs in the war and is turning his love of gardening into a small business. Grape growers described cleared land, destroyed vines and a lack of fertiliser and pesticide.",
+    "Ahed Zanabit, director of the Palestinian Agricultural Relief office, said the organisation has worked on about 100 small farm initiatives, providing fertiliser, irrigation networks and plastic greenhouses where it can. Restrictions on bringing inputs into Gaza are slowing recovery, he said."
+   ],
+   "people": [
+    {
+     "name": "Ahed Zanabit",
+     "role": "Director, Palestinian Agricultural Relief office (Gaza)"
+    },
+    {
+     "name": "Mahmoud Sikkik",
+     "role": "Gardener starting a small business"
+    }
+   ],
+   "lang": "en",
+   "key": "fields"
   },
   "masafer-yatta-feed-and-tractors-seized": {
    "headline": "Tractors and their loads of animal feed seized in Masafer Yatta",
@@ -818,7 +1160,23 @@
    "url": "https://english.wafa.ps/Pages/Details/175672",
    "background": false,
    "photo": "masafer-flock",
-   "figures": []
+   "figures": [],
+   "body": [
+    "Israeli forces seized two agricultural tractors belonging to brothers Khalil and Mohammad Younis Abu Aram in Khirbet al-Fakhit, together with their loads of animal feed, activist Osama Makhamreh told WAFA.",
+    "They also took a vehicle owned by Mohammad Ali Abu Aram that carried pupils to and from al-Fakhit School. OCHA notes nine vehicles, including tractors, were confiscated in 'Firing Zone 918' communities in September."
+   ],
+   "people": [
+    {
+     "name": "Osama Makhamreh",
+     "role": "Local activist"
+    },
+    {
+     "name": "Khalil and Mohammad Younis Abu Aram",
+     "role": "Owners of the seized tractors"
+    }
+   ],
+   "lang": "en",
+   "key": "flocks"
   },
   "gaza-livestock-and-bees-losses": {
    "headline": "Gaza has lost about 80% of its sheep and up to 95% of its bee colonies",
@@ -848,7 +1206,24 @@
      "n": "1-5 years",
      "label": "estimated recovery time"
     }
-   ]
+   ],
+   "body": [
+    "Dr Nail Qdeih of the Higher Agricultural Emergency Committee in Gaza's southern governorates gave PNN's Al-Makshouf programme losses up to November 2025: about 99 per cent of cattle, 80 per cent of sheep, 67 per cent of goats and 89 per cent of poultry.",
+    "Bee colonies were down 90 to 95 per cent, and hatcheries and incubators were damaged. He said the sector could take one to five years to recover, depending on resources and reconstruction.",
+    "Vet Moatasem Qaddoura described operating at home with almost nothing. A beekeeper in northern Gaza is rebuilding from a single hive he rescued from the rubble."
+   ],
+   "people": [
+    {
+     "name": "Dr Nail Qdeih",
+     "role": "Member, Higher Agricultural Emergency Committee (southern Gaza)"
+    },
+    {
+     "name": "Moatasem Qaddoura",
+     "role": "Veterinarian"
+    }
+   ],
+   "lang": "en",
+   "key": "flocks"
   },
   "wadi-abu-hindi-130-sheep-seized": {
    "headline": "About 130 sheep taken from Wadi Abu Hindi Bedouin herders",
@@ -866,7 +1241,14 @@
      "n": "~130",
      "label": "sheep seized"
     }
-   ]
+   ],
+   "body": [
+    "Settlers raided the Wadi Abu Hindi Bedouin community southeast of Jerusalem on Sunday evening, assaulted several shepherds and seized about 130 sheep, the Jerusalem Governorate's media office told WAFA.",
+    "Herding communities in the area face repeated attacks on people and flocks. OCHA reported that three herding families, 15 people in all, were displaced from Ma'azi Jaba' and Burqa on 5 and 6 October."
+   ],
+   "people": [],
+   "lang": "en",
+   "key": "flocks"
   },
   "um-eyad-bethlehem-pastries": {
    "headline": "Um Eyad's home pastry kitchen in Bethlehem became her family's only income",
@@ -884,7 +1266,20 @@
      "n": "~15",
      "label": "shops she supplied at first"
     }
-   ]
+   ],
+   "body": [
+    "Um Eyad began baking pastries and sweets at home in Bethlehem to add to the family income, with her husband and children helping to prepare, pack and deliver, PNN reported.",
+    "She moved from individual orders to supplying about 15 shops and some hospitals, and bakes for weddings and parties. COVID-19 forced a pause.",
+    "After the war began and work dried up, the business became the family's only income. She asked institutions to back women-led small businesses with practical help as well as money."
+   ],
+   "people": [
+    {
+     "name": "Um Eyad",
+     "role": "Home pastry maker, Bethlehem"
+    }
+   ],
+   "lang": "en",
+   "key": "kitchen"
   },
   "hebron-old-city-olive-oil-soap-maker": {
    "headline": "In Hebron's Old City, Mariam Abu Turki makes soap from olive oil and hill herbs",
@@ -897,7 +1292,20 @@
    "url": "https://english.pnn.ps/news/48306",
    "background": true,
    "photo": "nablus-soap",
-   "figures": []
+   "figures": [],
+   "body": [
+    "Mariam Abu Turki runs a small workshop in Hebron's Old City making soaps, creams and serums from olive oil and herbs such as sage, rosemary, mint, rose and aloe vera, PNN reported.",
+    "Her interest began in 2015; by 2017 she was producing solid soaps from natural oils, and she later trained in Turkey and France.",
+    "She won approval to open her Old City shop in 2023, choosing to stay in a market where trade has declined."
+   ],
+   "people": [
+    {
+     "name": "Mariam Abu Turki",
+     "role": "Soap and natural-products maker"
+    }
+   ],
+   "lang": "en",
+   "key": "kitchen"
   },
   "nisaa-al-shams-online-market": {
    "headline": "Bethlehem women's group opens an online market for home producers",
@@ -910,7 +1318,32 @@
    "url": "https://english.pnn.ps/news/48327",
    "background": false,
    "photo": "zaatar",
-   "figures": []
+   "figures": [],
+   "body": [
+    "The Nisaa Al-Shams Association launched an online marketplace for women entrepreneurs in Bethlehem governorate, PNN reported. Participation costs a nominal fee.",
+    "Director Reem Al-Hajajra said the aim is to take women's products to international markets. PR director Katherine Shomali said women also need training in product photography, listing and AI tools.",
+    "Sellers at the launch included Rola Musleh (soap and candles), Georgina Abu Mahr of Beit Jala (natural skincare) and Amina Abu Rahma, whose business makes traditional embroidery."
+   ],
+   "people": [
+    {
+     "name": "Reem Al-Hajajra",
+     "role": "Director, Nisaa Al-Shams Association"
+    },
+    {
+     "name": "Katherine Shomali",
+     "role": "Public relations director, Nisaa Al-Shams"
+    },
+    {
+     "name": "Amina Abu Rahma",
+     "role": "Owner, traditional embroidery business"
+    },
+    {
+     "name": "Dr Samir Hazboun",
+     "role": "Chairman, Bethlehem Chamber of Commerce and Industry"
+    }
+   ],
+   "lang": "en",
+   "key": "kitchen"
   },
   "gaza-family-cannot-afford-oil": {
    "headline": "A Gaza family that once stored five tins of oil now cannot buy a litre",
@@ -944,7 +1377,24 @@
      "n": "JD 120",
      "label": "former price of one tin of the family's oil"
     }
-   ]
+   ],
+   "body": [
+    "Um Mazen Sobeih, 70, used to put away five tins of oil and forty pounds of green olives from the family land east of Gaza City each year, the Palestinian Information Center reported. A tin sold for about 120 Jordanian dinars and helped carry the family through the year.",
+    "Both land and home are now inside the 'yellow line', and the family lives in a tent after four seasons without a harvest.",
+    "Value-chain and food-security expert Mohammad Abu Ouda says the olive area shrank from about 50,000 dunums to about 5,000 in 2026. A kilo of olives has gone from about NIS 5 before the war to NIS 20, and a litre of local oil costs NIS 50 to 55 against about NIS 20 for imported oil."
+   ],
+   "people": [
+    {
+     "name": "Um Mazen Sobeih",
+     "role": "Displaced farmer, east Gaza City"
+    },
+    {
+     "name": "Mohammad Abu Ouda",
+     "role": "Value-chain and food-security expert"
+    }
+   ],
+   "lang": "en",
+   "key": "market"
   },
   "sebastia-world-heritage-celebration": {
    "headline": "Palestine marks Sebastia's listing as a World Heritage site",
@@ -966,7 +1416,25 @@
      "n": "2012",
      "label": "year the nomination was first submitted"
     }
-   ]
+   ],
+   "body": [
+    "The State of Palestine celebrated the inscription of the Sebastia archaeological site on the World Heritage List, WAFA reported on 17 October.",
+    "Minister of Tourism and Antiquities Hani al-Hayek said protecting heritage begins with the people who live in a place and pass on its story, and that the ministry's work now turns to protecting the site and developing sustainable tourism.",
+    "The World Heritage Committee, meeting in Busan, inscribed Sebastia on 24 July 2026 by emergency procedure and placed it on the List of World Heritage in Danger, AP reported at the time. Israel's Foreign Ministry had urged the committee to reject the bid.",
+    "Sebastia, about 10 km northwest of Nablus, holds remains from the Iron Age through Roman, Byzantine and Islamic times. Palestinian delegate Adel Atieh said the listing honours residents who protected the site for generations."
+   ],
+   "people": [
+    {
+     "name": "Hani al-Hayek",
+     "role": "Palestinian Minister of Tourism and Antiquities"
+    },
+    {
+     "name": "Adel Naim Daoud Atieh",
+     "role": "Palestinian delegation to UNESCO"
+    }
+   ],
+   "lang": "en",
+   "key": "heritage"
   },
   "heritage-day-launched-hebron-old-city": {
    "headline": "Palestinian Heritage Day opens in Hebron's Old City with 35-40 events nationwide",
@@ -984,7 +1452,21 @@
      "n": "35-40",
      "label": "Heritage Day events across governorates"
     }
-   ]
+   ],
+   "body": [
+    "The Ministry of Culture launched Palestinian Heritage Day events on Wednesday 7 October in Hebron's Old City, WAFA reported.",
+    "Minister Emad Hamdan said heritage is a living memory carried in stories, crafts, dress, food, songs and customs. Starting in Hebron, he said, sends a message that protection begins in places that are themselves under threat; the World Heritage Committee kept the Old City on the List in Danger in 2026.",
+    "About 35 to 40 events, including heritage exhibitions, seminars and workshops, were planned across the governorates. Gaza's heritage, he said, is part of one Palestinian heritage.",
+    "The Heritage Day statement was sent to schools, universities and embassies. Hamdan said the day should be a space for learning and documentation, not only celebration."
+   ],
+   "people": [
+    {
+     "name": "Emad Hamdan",
+     "role": "Palestinian Minister of Culture"
+    }
+   ],
+   "lang": "ar",
+   "key": "heritage"
   },
   "bayt-al-dammah-folk-games-zababdeh": {
    "headline": "A Zababdeh centre revives Palestinian folk games, including one built on Sebastia's olive press",
@@ -1002,7 +1484,20 @@
      "n": "293",
      "label": "projects it was selected from"
     }
-   ]
+   ],
+   "body": [
+    "Bayt Al-Dammah in Zababdeh was set up to keep Palestinian folk games from disappearing, director Samahear Al-Roumi told PNN.",
+    "The games fall into three groups: strategy games such as al-dammah and mancala, movement games such as seven stones and hopscotch, and games that document depopulated towns and villages. An 'Olive Press' game teaches players about Sebastia before they play.",
+    "The centre hosts children and mothers on Sunday afternoons. Some visitors over 50 learned for the first time that games they knew were Palestinian. The project was picked from 293 entries at an event in Jordan."
+   ],
+   "people": [
+    {
+     "name": "Samahear Al-Roumi",
+     "role": "Director, Bayt Al-Dammah centre"
+    }
+   ],
+   "lang": "en",
+   "key": "heritage"
   },
   "fayyad-oil-prices-four-regions": {
    "headline": "Fresh oil sells from $13 a kilo in the north to $26 in Beit Jala",
@@ -1014,7 +1509,7 @@
    "source": "Raya Media Network",
    "url": "https://www.raya.ps/articles/1227094.html",
    "background": false,
-   "photo": null,
+   "photo": "kufr-jammal-press",
    "figures": [
     {
      "n": "$13/kg",
@@ -1036,7 +1531,267 @@
      "n": "< EUR 5/kg",
      "label": "exchange prices in Spain, Greece, Turkey, Tunisia"
     }
-   ]
+   ],
+   "body": [
+    "Writing on 17 October, Fayyad Fayyad listed the prices of new oil 'from under the separator' at the press, before any grading: about $13 a kilo in the northern West Bank, $17 in Ramallah and Jerusalem, $21.8 in Hebron and $26 in Beit Jala.",
+    "He pointed to the ministry's estimate of 21,000 tonnes as a sign of plenty, but said the market is also full of leftover imported and Syrian oil of mixed quality.",
+    "He expects Israel to produce 18,000 tonnes against a need of 30,000, Jordan more than 30,000 tonnes, Turkey around 400,000 and Syria about 195,000, and said exchange prices in Spain, Greece, Turkey and Tunisia are below 5 euros a kilo, half the Palestinian level.",
+    "His forecast: by early December most presses will have stopped and prices will fall. For the farmer, he wrote, olives barely pay even at twice today's price; for many consumers, today's price is already too high."
+   ],
+   "people": [
+    {
+     "name": "Fayyad Fayyad",
+     "role": "Director general, Palestinian Olive Council (author)"
+    }
+   ],
+   "lang": "ar",
+   "key": "market"
+  },
+  "deir-nizam-trees-bulldozed-before-harvest": {
+   "headline": "Days before the harvest, army bulldozers uproot olive trees in Deir Nizam",
+   "dek": "Israeli military bulldozers tore out olive trees on village land near Ramallah, Reuters reported. Landowners said even newly planted trees and trees between houses were lost.",
+   "place": "Deir Nizam, Ramallah",
+   "date": "2026-09-23",
+   "published": "2026-09-23",
+   "desk": "Olives",
+   "source": "Reuters",
+   "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/23/israeli-bulldozers-smash-palestinian-olive-trees-ahead-of-annual-harvest",
+   "background": true,
+   "photo": null,
+   "figures": [
+    {
+     "n": "~9 acres",
+     "label": "olive land owned by Tamimi and neighbours"
+    },
+    {
+     "n": "120 drums",
+     "label": "oil produced by Nather Tamimi's family land"
+    },
+    {
+     "n": "~8%",
+     "label": "agriculture's share of Palestinian GDP"
+    }
+   ],
+   "body": [
+    "Abd Alfattah Tamimi watched a military bulldozer break the top of one of his trees and pull out its roots in Deir Nizam, Reuters reported. He and his neighbours own nearly 9 acres of olive land.",
+    "Nather Tamimi, another landowner, said his family's land produced about 120 drums of oil, and that trees were uprooted even between houses.",
+    "The army has previously said such clearing prevents ambushes; Palestinian rights groups reject that. The agriculture ministry says olives are the backbone of a sector worth about 8 per cent of GDP and more than 60,000 jobs."
+   ],
+   "people": [
+    {
+     "name": "Abd Alfattah Tamimi",
+     "role": "Landowner, Deir Nizam"
+    },
+    {
+     "name": "Nather Tamimi",
+     "role": "Landowner, Deir Nizam"
+    }
+   ],
+   "lang": "en",
+   "key": "olives"
+  },
+  "olive-council-48-tin-600-700-shekels": {
+   "headline": "Inside the Green Line, a tin of oil is expected to cost NIS 600-700",
+   "dek": "Agronomist Suhail Zeidan expects a better crop than recent years, at 60-70 per cent of the average, but says producing a litre of oil costs farmers about NIS 18.",
+   "place": "Arab towns inside Israel",
+   "date": "2026-10-16",
+   "published": "2026-10-16",
+   "desk": "Market",
+   "source": "al-Sonara",
+   "url": "https://sonara.net/%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D9%8A%D8%B7%D9%84%D9%91-%D8%A8%D8%A2%D9%85%D8%A7%D9%84-%D9%85%D8%AD%D8%B5%D9%88%D9%84-%D8%A3%D9%81%D8%B6%D9%84-%D9%88%D8%B1%D8%A8/",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "NIS 600-700",
+     "label": "expected price of a tin of olive oil"
+    },
+    {
+     "n": "~NIS 18",
+     "label": "farmer's cost to produce one litre"
+    },
+    {
+     "n": "60-70%",
+     "label": "expected crop as share of average"
+    }
+   ],
+   "body": [
+    "Suhail Zeidan, head of the olive council in the country, told al-Sonara he expects a good season, better than recent years, with a crop of 60 to 70 per cent of the long-term average.",
+    "He expects a tin of oil to sell for NIS 600 to 700, but said picking and pressing cost farmers about NIS 18 a litre, leaving a thin margin.",
+    "Picking normally starts from 25 October, he said, though early rain can bring ripening forward. He advised picking at the right ripeness, carrying fruit in ventilated plastic crates and pressing as soon as possible."
+   ],
+   "people": [
+    {
+     "name": "Suhail Zeidan",
+     "role": "Agronomist; head of the olive council (as described by al-Sonara)"
+    }
+   ],
+   "lang": "ar",
+   "key": "market"
+  },
+  "tulkarm-wholesale-produce-market-opens": {
+   "headline": "Tulkarm opens a rebuilt central wholesale market for fruit and vegetables",
+   "dek": "Prime Minister Mohammad Mustafa opened the market, one of three central markets being rehabilitated in the West Bank to organise how farmers sell their produce.",
+   "place": "Tulkarm",
+   "date": "2026-10-12",
+   "published": "2026-10-12",
+   "desk": "Market",
+   "source": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175791",
+   "background": false,
+   "photo": null,
+   "figures": [],
+   "body": [
+    "Prime Minister Mohammad Mustafa inaugurated the Central Wholesale Market for Fruits and Vegetables in Tulkarm, WAFA reported. It is part of a project to rehabilitate three central markets in the West Bank.",
+    "He said the market should organise the marketing of produce, improve market access and widen opportunities for farmers and traders. Governor Abdullah Kmeil, ministers and international partners attended.",
+    "Mustafa also pointed to recent attacks on pickers in Ramin and Beit Lid in the governorate, where harvests and equipment were stolen."
+   ],
+   "people": [
+    {
+     "name": "Mohammad Mustafa",
+     "role": "Palestinian Prime Minister"
+    },
+    {
+     "name": "Abdullah Kmeil",
+     "role": "Governor of Tulkarm"
+    }
+   ],
+   "lang": "en",
+   "key": "market"
+  },
+  "manila-heritage-day-exhibition": {
+   "headline": "Manila exhibition pairs West Bank heritage sites with Gaza's, before and after",
+   "dek": "'Palestine: Living Heritage, Enduring Steadfastness' opened at the University of the Philippines to mark Heritage Day, with embroidery, crafts and photographs.",
+   "place": "Manila, Philippines",
+   "date": "2026-10-06",
+   "published": "2026-10-06",
+   "desk": "Heritage",
+   "source": "Khaleej Times",
+   "url": "https://www.khaleejtimes.com/world/asia/manila-marks-palestinian-heritage-day-with-art-exhibit-protest-on-october-7",
+   "background": false,
+   "photo": null,
+   "figures": [],
+   "body": [
+    "A month-long exhibition opened at the University of the Philippines College of Fine Arts gallery to mark Palestinian Heritage Day, Khaleej Times reported.",
+    "It shows photographs, crafts and devotional objects, and sets historic West Bank sites beside Gaza heritage sites before and after their destruction.",
+    "Ambassador Mounir Anastas acted as the first guide, explaining the embroidery, painting and devotional pieces."
+   ],
+   "people": [
+    {
+     "name": "Mounir Anastas",
+     "role": "Palestinian Ambassador to the Philippines"
+    },
+    {
+     "name": "Angelo Jimenez",
+     "role": "President, University of the Philippines"
+    }
+   ],
+   "lang": "en",
+   "key": "heritage"
+  },
+  "cal-improved-nabali-picking-5-nov": {
+   "headline": "5 November: picking opens for improved Nabali and irrigated oil olives",
+   "dek": "The second official start date of the season, set by the Ministry of Agriculture. District directors may push it back locally.",
+   "place": "West Bank",
+   "date": "2026-11-05",
+   "published": "2026-09-21",
+   "desk": "Calendar",
+   "source": "WAFA",
+   "url": "https://www.wafa.ps/news/2026/9/21/%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D9%82%D8%B7%D9%81-%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86-%D9%88%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%B5%D8%B1-%D9%84%D9%85%D9%88%D8%B3%D9%85-2026-154364",
+   "background": true,
+   "photo": "nabali-2026",
+   "figures": [],
+   "body": [
+    "Under the ministry's 2026 calendar, improved Nabali and irrigated varieties grown for oil may be picked from 5 November, when the fruit has reached the right ripeness and colour, WAFA reported.",
+    "Baladi Nabali picking opened on 15 October. Agriculture directors can delay start dates after consulting local bodies."
+   ],
+   "people": [],
+   "lang": "ar",
+   "key": "calendar"
+  },
+  "cal-cpt-olives-and-origins-delegation": {
+   "headline": "27 Oct - 5 Nov: 'Olives and Origins' harvest delegation (full)",
+   "dek": "Community Peacemaker Teams' 2026 Palestine delegation is timed to the olive harvest. Its page lists it as full.",
+   "place": "West Bank villages",
+   "date": "2026-10-27",
+   "published": "2026-10-21",
+   "desk": "Calendar",
+   "source": "Community Peacemaker Teams",
+   "url": "https://cpt.org/delegations/palestine",
+   "background": false,
+   "photo": null,
+   "figures": [
+    {
+     "n": "USD 1,600",
+     "label": "listed in-country cost"
+    }
+   ],
+   "body": [
+    "Community Peacemaker Teams lists a Palestine delegation from 27 October to 5 November 2026, themed 'Olives and Origins', focused on harvest solidarity in villages where farmers face restricted access to their groves.",
+    "The listed cost is USD 1,600 excluding flights, insurance and visas. The page marks the delegation as full."
+   ],
+   "people": [],
+   "lang": "en",
+   "key": "calendar"
+  },
+  "cal-world-olive-tree-day-26-nov": {
+   "headline": "26 November: World Olive Tree Day",
+   "dek": "UNESCO's General Conference proclaimed the day in 2019 to encourage protection of the olive tree and the values it embodies. In 2026 it falls on a Thursday, as the harvest winds down.",
+   "place": "Worldwide",
+   "date": "2026-11-26",
+   "published": "2026-10-21",
+   "desk": "Calendar",
+   "source": "UNESCO",
+   "url": "https://www.unesco.org/en/days/world-olive-tree",
+   "background": false,
+   "photo": "tel-rumeida-tree",
+   "figures": [],
+   "body": [
+    "UNESCO's General Conference proclaimed 26 November World Olive Tree Day at its 40th session in 2019. It is observed every year.",
+    "UNESCO says the day aims to encourage protection of the olive tree in recognition of its social, cultural, economic and environmental importance."
+   ],
+   "people": [],
+   "lang": "en",
+   "key": "calendar"
+  },
+  "cal-iamm-tatreez-until-april-2027": {
+   "headline": "Until 25 April 2027: 'Tatreez' embroidery exhibition at the Islamic Arts Museum Malaysia",
+   "dek": "More than 150 pieces, including dresses from ten regions, from Galilee to the Naqab, in a show the museum spent 15 years preparing.",
+   "place": "Kuala Lumpur, Malaysia",
+   "date": "2027-04-25",
+   "published": "2026-07-19",
+   "desk": "Calendar",
+   "source": "Islamic Arts Museum Malaysia",
+   "url": "https://iamm.org.my/exhibition/tatreez",
+   "background": true,
+   "photo": "ramla-dress",
+   "figures": [
+    {
+     "n": "150+",
+     "label": "artefacts (The Star)"
+    },
+    {
+     "n": "10",
+     "label": "regions represented"
+    }
+   ],
+   "body": [
+    "'Tatreez: Reclaiming Palestine through Embroidery' runs at the Islamic Arts Museum Malaysia from 19 June 2026 to 25 April 2027, daily 9:30 am to 6 pm.",
+    "One gallery shows dresses, textiles and headdresses from ten regions: Galilee, Nablus, Ramallah, Bethlehem, Jerusalem, Hebron, Jaffa, Ramla-Lydda, Gaza and the Naqab. The other reinterprets motifs with contemporary work and the documentary 'I Am Tatreez', about refugees in Lebanon.",
+    "The Star reported more than 150 artefacts, including historical photographs from the US Library of Congress, and a collaboration with Lebanon's Inaash Association. Curator Siti Marina said surviving design books let lost patterns be recreated."
+   ],
+   "people": [
+    {
+     "name": "Siti Marina",
+     "role": "Curator, IAMM"
+    },
+    {
+     "name": "Sharifah Shahanaz",
+     "role": "Curator, IAMM"
+    }
+   ],
+   "lang": "en",
+   "key": "calendar"
   }
  }
 }
