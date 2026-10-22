@@ -12,7 +12,7 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-V = '2'                                       # bump on any asset change (Chrome caches hard)
+V = '4'                                       # bump on any asset change (Chrome caches hard)
 E = json.load(open(os.path.join(ROOT, 'tools', 'edition.json'), encoding='utf-8'))
 MARKS = json.load(open(os.path.join(ROOT, 'tools', 'out', 'marks.json'), encoding='utf-8'))   # written by brand.py
 PH = json.load(open(os.path.join(ROOT, 'tools', 'photos.json'), encoding='utf-8'))
@@ -91,14 +91,22 @@ def thumb(slug):
 def row(sid):
     """A list row: thumbnail and headline; rows without an honest photo go text-only."""
     t = thumb(S[sid].get('photo'))
-    s = S[sid]
-    # list rows have no story on this page yet: they open the original report
-    return (f'<li><a href="{esc(s["url"])}" rel="noopener" target="_blank"{"" if t else " class=\"np\""}>{t}'
-            f'<b>{esc(s["headline"])}<span class="vh"> ({esc(s["source"])}, opens in a new tab)</span></b></a></li>')
+    return f'<li><a href="{link(sid)}"{"" if t else " class=\"np\""}>{t}<b>{esc(S[sid]["headline"])}</b></a></li>'
+
+
+# each research desk lives on one section page; palms and fields share one, market is the prices page
+DESK_PAGE = {'olives': 'olives', 'market': 'prices', 'vines': 'vines', 'palms': 'palms', 'fields': 'palms',
+             'flocks': 'flocks', 'kitchen': 'kitchen', 'heritage': 'heritage', 'calendar': 'calendar'}
 
 
 def link(sid):
-    return f'#{sid}'
+    return f'{R}story/{sid}.html'
+
+
+def href(h):
+    """Edition links: '#story-id' is a story page, '#page' a section page."""
+    k = h.lstrip('#')
+    return link(k) if k in S else f'{R}{k}.html'
 
 
 def kick(s):
@@ -199,27 +207,26 @@ if((f||!s)&&!matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.
 </head>'''
 
 
-NAV = [('October', '#top', True), ('Olives', '#olives', False), ('Vines &amp; figs', '#vines', False),
-       ('Palms &amp; fields', '#palms', False), ('Flocks', '#flocks', False), ('Kitchen', '#kitchen', False),
-       ('Heritage', '#heritage', False), ('Prices', '#figures', False), ('Calendar', '#ahead', False)]
+NAV = [('October', 'home'), ('Olives', 'olives'), ('Vines &amp; figs', 'vines'), ('Palms &amp; fields', 'palms'),
+       ('Flocks', 'flocks'), ('Kitchen', 'kitchen'), ('Heritage', 'heritage'), ('Prices', 'prices'), ('Calendar', 'calendar')]
 
 
-def top():
-    nav = ''.join(f'<li><a href="{h}"{" aria-current=\"page\"" if c else ""}>{t}</a></li>' for t, h, c in NAV)
-    nav += '<li><a href="#archive">Every month <small>12</small></a></li>'
+def top(cur='home'):
+    nav = ''.join(f'<li><a href="{R}{k}.html"{" aria-current=\"page\"" if k == cur else ""}>{t}</a></li>' for t, k in NAV)
+    nav += f'<li><a href="{R}archive.html"{" aria-current=\"page\"" if cur == "archive" else ""}>Every month <small>12</small></a></li>'
     return f'''<a class="skip" href="#main">Skip to the stories</a>
 <div class="loader" aria-hidden="true"><svg viewBox="0 0 64 64"></svg><p>{esc(E["loader"])}</p></div>
 {SPRITE}
 <div class="topbar"><div class="wrap">
   <p class="today"><span class="day">{long_day(TODAY)}</span><span class="now"><i class="dot"></i>{esc(E["topline"])}</span></p>
-  <nav class="links" aria-label="Site"><a href="#letter">The monthly letter</a><a href="#about">About</a></nav>
+  <nav class="links" aria-label="Site"><a href="{R}letter.html">The monthly letter</a><a href="{R}about.html">About</a></nav>
 </div></div>
 <header class="mast" id="top"><div class="wrap">
-  <a class="brand" href="home.html" aria-label="Olive Palestine, home">{wordmark()}</a>
+  <a class="brand" href="{R}home.html" aria-label="Olive Palestine, home">{wordmark()}</a>
   <p class="line">{esc(E["line"])}</p>
   <div class="acts">
-    <button class="btn ghost" type="button" aria-label="Search">{icon("i-search")}<span>Search</span></button>
-    <a class="btn" href="#letter" id="letter">{icon("i-mail")}The monthly letter</a>
+    <a class="btn ghost" href="{R}search.html" aria-label="Search">{icon("i-search")}<span>Search</span></a>
+    <a class="btn" href="{R}letter.html">{icon("i-mail")}The monthly letter</a>
   </div>
 </div></header>
 <nav class="nav" aria-label="Sections"><div class="wrap"><ul>{nav}</ul></div></nav>'''
@@ -268,7 +275,7 @@ def lead():
 def land():
     steps = []
     for key, verb, small in (('pick', 'Pick', 'picked now'), ('press', 'Press', 'milled now'), ('plant', 'Plant', 'sown now')):
-        items = ''.join(f'<li><a href="{esc(i["href"])}"><b>{esc(i["t"])}</b><span>{esc(i["note"])}</span></a></li>' for i in E['land'][key])
+        items = ''.join(f'<li><a href="{href(i["href"])}"><b>{esc(i["t"])}</b><span>{esc(i["note"])}</span></a></li>' for i in E['land'][key])
         steps.append(f'<div class="step rise"><h3><span>{verb}</span><small>{small}</small></h3><ul>{items}</ul></div>')
     return f'''<section class="land" aria-labelledby="land-h"><div class="wrap">
   <div class="land-head"><h2 class="lbl" id="land-h">This month on the land</h2><p class="by">Three steps of the season, as of {long_day(TODAY)}</p></div>
@@ -276,9 +283,9 @@ def land():
 </div></section>'''
 
 
-def desk_head(hid, name, line, more='All stories'):
+def desk_head(hid, name, line, more='All stories', page=None):
     return (f'<div class="desk-head"><h2 id="{hid}">{name}</h2><div><p>{esc(line)}</p>'
-            f'<a class="more" href="#{hid}">{more} {icon("i-right")}</a></div></div><div class="course lay"></div>')
+            f'<a class="more" href="{R}{page}.html">{more} {icon("i-right")}</a></div></div><div class="course lay"></div>')
 
 
 def olives():
@@ -286,7 +293,7 @@ def olives():
     side = ''.join(story(i, h='h-s', sizes='172px') for i in o['side'])
     row = ''.join(story(i, h='h-s', dek=False, sizes='(max-width:640px) 96px, 25vw') for i in o['row'])
     return f'''<section class="desk" id="olives" aria-labelledby="olives-h"><div class="wrap">
-  {desk_head("olives-h", "Olives", o["line"], "All olive stories")}
+  {desk_head("olives-h", "Olives", o["line"], "All olive stories", "olives")}
   <div class="grid-olives">
     {story(o["big"], h="h-l", cls="st big rise", sizes="(max-width:1180px) 100vw, 56vw", facts=True)}
     <div class="side">{side}</div>
@@ -299,7 +306,7 @@ def figures():
     items = ''.join(f'<li class="rise"><span class="n{" hot" if f.get("hot") else ""}">{esc(f["n"])}{f"<small>{esc(f["unit"])}</small>" if f.get("unit") else ""}</span>'
                     f'<p>{esc(f["text"])} <span class="src">{esc(f["src"])}</span></p></li>' for f in E['figures'])
     return f'''<section class="figures" id="figures" aria-labelledby="fig-h"><div class="wrap">
-  <div class="intro"><h2 id="fig-h">The season in figures</h2><p>{esc(E["figures_intro"])}</p></div>
+  <div class="intro"><h2 id="fig-h">The season in figures</h2><p>{esc(E["figures_intro"])}</p><a class="more" href="{R}prices.html">Prices and the market {icon("i-right")}</a></div>
   <ul class="board">{items}</ul>
 </div></section>'''
 
@@ -308,21 +315,23 @@ def trio():
     cols = []
     for c in E['trio']:
         lst = ''.join(row(i) for i in c.get('list', []))
-        cols.append(f'<section class="col" id="{c["key"]}" aria-labelledby="{c["key"]}-h"><h2 id="{c["key"]}-h">{c["name"]}</h2>'
+        cols.append(f'<section class="col" id="{c["key"]}" aria-labelledby="{c["key"]}-h"><h2 id="{c["key"]}-h"><a href="{R}{c["key"]}.html">{c["name"]}</a></h2>'
                     f'<p class="now"><b>Now:</b> {esc(c["now"])}</p><div class="course lay"></div>'
                     + ''.join(story(i, h='h-s', sizes='(max-width:900px) 100vw, 30vw') for i in c['stories'])
                     + (f'<ul class="list">{lst}</ul>' if lst else '') + '</section>')
     return f'<div class="desk trio"><div class="wrap"><div class="cols">{"".join(cols)}</div></div></div>'
 
 
-def kitchen():
+def kitchen(page=False):
+    """The recipe of the season with the kitchen stories; page=True is the kitchen page's version,
+    where the page head already names the section and the stories follow as cards."""
     k = E['kitchen']
     r = k['recipe']
     need = ''.join(f'<li>{esc(i)}</li>' for i in r['need'])
     method = ''.join(f'<li><span>{esc(i)}</span></li>' for i in r['method'])
     others = ''.join(story(i, h='h-s', sizes='(max-width:640px) 100vw, 30vw') for i in k['others'])
     return f'''<section class="desk kitchen ink" id="kitchen" aria-labelledby="kitchen-h"><div class="wrap">
-  {desk_head("kitchen-h", "Kitchen", k["line"], "All recipes")}
+  {'<h2 class="vh" id="kitchen-h">Recipe of the season</h2>' if page else desk_head("kitchen-h", "Kitchen", k["line"], "The kitchen", "kitchen")}
   <div class="recipe">
     {fig(r["photo"], sizes="(max-width:900px) 100vw, 48vw")}
     <div class="copy">
@@ -333,7 +342,7 @@ def kitchen():
       <p class="by">{esc(r["note"])} <span class="src">{esc(r["src"])}</span></p>
     </div>
   </div>
-  <div class="others">{others}</div>
+  {"" if page else f'<div class="others">{others}</div>'}
 </div></section>'''
 
 
@@ -341,7 +350,7 @@ def heritage():
     h = E['heritage']
     b = ''.join(story(i, h='h-s', cls='st b rise', sizes='(max-width:640px) 100vw, 24vw') for i in h['b'])
     return f'''<section class="desk" id="heritage" aria-labelledby="her-h"><div class="wrap">
-  {desk_head("her-h", "Heritage", h["line"])}
+  {desk_head("her-h", "Heritage", h["line"], "All heritage stories", "heritage")}
   <div class="grid-her">{story(h["a"], h="h-l", cls="st a rise", sizes="(max-width:900px) 100vw, 48vw")}{b}</div>
 </div></section>'''
 
@@ -350,7 +359,7 @@ def ahead():
     items = ''.join(f'<li class="rise"><time datetime="{a["date"]}"><small>{esc(a["when"])}</small>{day(a["date"], wd=True)}</time>'
                     f'<p>{esc(a["text"])} <span class="src">{esc(a["src"])}</span></p></li>' for a in E['ahead'])
     return f'''<section class="ahead" id="ahead" aria-labelledby="ahead-h"><div class="wrap">
-  <h2 id="ahead-h">Next on the calendar</h2><ol>{items}</ol>
+  <div><h2 id="ahead-h">Next on the calendar</h2><a class="more" href="{R}calendar.html">The full calendar {icon("i-right")}</a></div><ol>{items}</ol>
 </div></section>'''
 
 
@@ -360,12 +369,13 @@ def foot():
         m = dt.date(TODAY.year, i, 1)
         cur = ' aria-current="page"' if i == TODAY.month else ''
         later = ' class="later"' if i > TODAY.month else ''
-        mos.append(f'<li><a href="#archive"{cur}{later}>{m.strftime("%b")}</a></li>')
-    return f'''<footer id="about"><div class="wrap">
-  <div>{wordmark("wm", "#EFE9DC", "#D2603F")}<p class="about">{E["about_html"]}</p></div>
+        mos.append(f'<li><a href="{R}archive.html#m{i:02d}"{cur}{later}>{m.strftime("%b")}</a></li>')
+    return f'''<footer><div class="wrap">
+  <div>{wordmark("wm", "#EFE9DC", "#D2603F")}<p class="about">{E["about_html"]}</p>
+    <p class="flinks"><a href="{R}about.html">About</a><a href="{R}letter.html">The monthly letter</a><a href="{R}search.html">Search</a><a href="{R}calendar.html">Calendar</a></p></div>
   <nav class="months" id="archive" aria-labelledby="months-h"><h2 id="months-h">Every month</h2><ul>{"".join(mos)}</ul></nav>
   <div class="course on-ink"></div>
-  <p class="foot"><span>© {TODAY.year} Olive Palestine · a design prototype by TakTek</span><span><a href="index.html">The identity</a> · <a href="assets/img/photo/CREDITS.md">Photo credits</a> · Photos: Wikimedia Commons, credited on each image</span></p>
+  <p class="foot"><span>© {TODAY.year} Olive Palestine · a design prototype by TakTek</span><span><a href="{R}index.html">The identity</a> · <a href="{R}credits.html">Sources &amp; credits</a> · Photos: Wikimedia Commons, credited on each image</span></p>
 </div></footer>'''
 
 
