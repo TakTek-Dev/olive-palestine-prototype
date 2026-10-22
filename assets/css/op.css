@@ -596,6 +596,7 @@ html.loading body{overflow:hidden}
 .nf .wrap{display:grid;grid-template-columns:260px minmax(0,1fr);gap:48px;align-items:center}
 .nf-mark{width:100%;overflow:visible}
 .nf .h-xl{margin:10px 0 14px}
+.nf .go{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 .flinks{display:flex;flex-wrap:wrap;gap:4px 22px;margin-top:18px;font:600 14px var(--sans)}
 .flinks a{display:inline-flex;align-items:center;min-height:40px;color:var(--on-ink)}
 .flinks a:hover{color:var(--soil-lit)}
